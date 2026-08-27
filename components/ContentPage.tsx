@@ -19,6 +19,7 @@ import { getPageContent } from '@/lib/page-content'
 import { prisma } from '@/lib/prisma'
 import SiteFooter from '@/components/SiteFooter'
 import SiteHeader from '@/components/SiteHeader'
+import NetworkMap from '@/components/NetworkMap'
 import { applyPageSectionOverrides } from '@/lib/page-section-overrides'
 import { buildCustomerServiceCards } from '@/lib/contact-channels'
 
@@ -86,7 +87,7 @@ export default async function ContentPage({ locale, kind }: { locale: Locale; ki
       {page.stats ? <section className="stitch-stat-rail"><div className="stitch-container">{page.stats.map((stat) => <span key={stat.value}><strong>{stat.value}</strong><small>{text(stat.label)}</small></span>)}</div></section> : null}
       {page.proof ? <section className="stitch-about-principles stitch-container"><article><span>01</span><h2>{text(page.proof.items[0].title)}</h2><p>{text(page.proof.items[0].body)}</p></article><article><span>02</span><h2>{text(page.proof.items[2].title)}</h2><p>{text(page.proof.items[2].body)}</p></article></section> : null}
       <section className="stitch-about-capability stitch-container"><div><span className="stitch-overline">{t('Company capability', '企业能力', 'Возможности компании')}</span><h2>{t('A supply company built around accountable coordination.', '以明确负责的协调机制构建供应能力。', 'Поставщик, построенный вокруг ответственной координации.')}</h2><p>{text(page.sections[0].body)}</p><ul><li><CheckCircle2/>{t('Research institutes and universities', '科研院所与高校实验室', 'НИИ и университеты')}</li><li><CheckCircle2/>{t('Biopharma and testing laboratories', '生物医药与检测实验室', 'Биофарма и диагностические лаборатории')}</li><li><CheckCircle2/>{t('Industrial R&D and regional distributors', '工业研发与区域经销商', 'Промышленные R&D-команды и дистрибьюторы')}</li></ul></div><div className="stitch-about-images"><div><Image src="/stitch/about-2.jpg" alt="Laboratory automation" fill sizes="(max-width: 900px) 100vw, 28vw"/></div><div><Image src="/stitch/about-3.jpg" alt="Controlled laboratory environment" fill sizes="(max-width: 900px) 100vw, 28vw"/></div></div></section>
-      <section className="stitch-about-network"><div className="stitch-container"><div><span className="stitch-overline">{text(page.sections[1].title)}</span><h2>{text(page.sections[1].title)}</h2><p>{text(page.sections[1].body)}</p></div><div><Image src="/stitch/home-enhanced-3.jpg" alt="Global supply network" fill sizes="(max-width: 900px) 100vw, 50vw"/></div></div></section>
+      <section className="stitch-about-network"><div className="stitch-container"><div><span className="stitch-overline">{text(page.sections[1].title)}</span><h2>{text(page.sections[1].title)}</h2><p>{text(page.sections[1].body)}</p></div><NetworkMap className="stitch-about-network-map" /></div></section>
     </>
   } else if (kind === 'contact') {
     content = <>

@@ -20,10 +20,10 @@ import {
 } from 'lucide-react'
 import SiteFooter from '@/components/SiteFooter'
 import SiteHeader from '@/components/SiteHeader'
+import NetworkMap from '@/components/NetworkMap'
 import { categories as staticCategories, heroSlides as staticHeroSlides } from '@/lib/data'
 import type { Locale } from '@/lib/i18n'
 import { slugify } from '@/lib/slug'
-import { networkHotspots } from '@/lib/stitch-ui'
 import { localizeManagedSection, type ManagedSection } from '@/lib/page-section-overrides'
 
 type DbCategory = {
@@ -182,16 +182,7 @@ export default function LocalizedHome({
           <p>{t('Brand coverage spans the Americas, Europe, Asia-Pacific and China. One sourcing desk coordinates product matching, quotation, documents and the delivery path.', '品牌网络覆盖美洲、欧洲、亚太和中国，由同一采购窗口协调产品匹配、报价、文件与交付路径。', 'Сеть брендов охватывает Америку, Европу, Азиатско-Тихоокеанский регион и Китай. Один отдел координирует подбор, расчёт, документы и поставку.')}</p>
           <div className="stitch-network-facts"><span><strong>4</strong>{t('source regions', '主要供应区域', 'региона')}</span><span><strong>16</strong>{t('product categories', '核心产品品类', 'категорий')}</span><span><strong>3</strong>{t('temperature lanes', '运输温区', 'температурных режима')}</span></div>
         </div>
-        <div className="stitch-network-map">
-          <Image src="/stitch/home-enhanced-3.jpg" alt="Global pharmaceutical distribution network" fill sizes="(max-width: 900px) 100vw, 52vw"/>
-          <div className="stitch-network-hotspots" aria-hidden="true">
-            {networkHotspots.map((point) => <span
-              className="stitch-network-hotspot"
-              key={point.id}
-              style={{ left: `${point.x}%`, top: `${point.y}%` }}
-            />)}
-          </div>
-        </div>
+        <NetworkMap className="stitch-network-map" />
       </div>
     </section>
 
