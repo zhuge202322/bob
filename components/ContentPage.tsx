@@ -19,6 +19,7 @@ import { prisma } from '@/lib/prisma'
 import SiteFooter from '@/components/SiteFooter'
 import SiteHeader from '@/components/SiteHeader'
 import { applyPageSectionOverrides } from '@/lib/page-section-overrides'
+import { telegramChannel } from '@/lib/contact-channels'
 
 const serviceIcons = [Search, PackageCheck, ListChecks, Globe2]
 
@@ -36,6 +37,7 @@ export default async function ContentPage({ locale, kind }: { locale: Locale; ki
   const t = (en: string, zh: string, ru: string) => locale === 'zh' ? zh : locale === 'ru' ? ru : en
   const whatsapp = socials.find((item) => item.platform.toLowerCase() === 'whatsapp')?.url || 'https://wa.me/861857548378'
   const vk = socials.find((item) => item.platform.toLowerCase() === 'vk')?.url || 'https://vk.com/'
+  const telegram = socials.find((item) => item.platform.toLowerCase() === 'telegram')?.url || telegramChannel.url
   const heroImages: Record<string, string> = {
     solutions: '/stitch/services-1.jpg',
     quality: '/stitch/quality-1.jpg',
@@ -89,6 +91,7 @@ export default async function ContentPage({ locale, kind }: { locale: Locale; ki
     content = <>
       <section className="stitch-contact-hero stitch-container"><div><span className="stitch-overline">{text(page.eyebrow)}</span><h1>{text(page.title)}</h1><p>{text(page.intro)}</p><div className="stitch-action-row"><a className="button primary" href={whatsapp} target="_blank" rel="noreferrer"><MessageCircle size={16}/>WhatsApp</a><a className="button secondary" href={vk} target="_blank" rel="noreferrer">VK</a></div></div><div><Image src={heroImage} alt="" fill priority sizes="(max-width: 900px) 100vw, 45vw"/></div></section>
       <section className="stitch-contact-directory stitch-container"><div><span className="stitch-overline">{t('Business contacts', '商务联系信息', 'Контактные данные')}</span><h2>{t('Choose the channel that fits the request.', '根据需求选择合适的沟通方式。', 'Выберите канал под ваш запрос.')}</h2></div><div>{contacts.map((contact) => <article key={contact.id}><span>{contact.label}</span>{contact.href ? <a href={contact.href}>{contact.value}</a> : <strong>{contact.value}</strong>}</article>)}</div></section>
+      <section className="stitch-telegram-band"><div className="stitch-container"><div><span className="stitch-overline">Telegram</span><h2>{t('Scan to contact the sourcing desk on Telegram.', '扫码通过 Telegram 联系采购团队。', 'Отсканируйте код, чтобы связаться с отделом снабжения в Telegram.')}</h2><p>{t('Use Telegram for a quick product check, then send the brand, CAT No., quantity and destination city.', '可通过 Telegram 快速核验产品，并发送品牌、CAT No.、数量和交付城市。', 'Для быстрой проверки отправьте бренд, CAT No., количество и город доставки.')}</p><a className="button primary" href={telegram} target="_blank" rel="noreferrer">{telegramChannel.handle}<ArrowRight size={15}/></a></div><a className="stitch-telegram-qr" href={telegram} target="_blank" rel="noreferrer"><Image src={telegramChannel.qrImage} alt={`Telegram QR code for ${telegramChannel.handle}`} width={577} height={694}/></a></div></section>
       <section className="stitch-contact-channels"><div className="stitch-container">{page.sections.map((section, index) => <article key={text(section.title)}><span>0{index + 1}</span>{index === 0 ? <MessageCircle/> : index === 1 ? <Globe2/> : <FileCheck2/>}<h3>{text(section.title)}</h3><p>{text(section.body)}</p><a href={index === 0 ? whatsapp : index === 1 ? vk : `/${locale}/rfq`}>{index < 2 ? t('Start a conversation', '开始沟通', 'Начать диалог') : quote}<ArrowRight size={14}/></a></article>)}</div></section>
       <section className="stitch-contact-rfq stitch-container"><div><FileCheck2/><span><h2>{t('Need a documented response?', '需要正式、可记录的回复？', 'Нужен документированный ответ?')}</h2><p>{t('Use the RFQ form for multi-brand lists, cold-chain items or attachments.', '涉及多品牌、冷链或附件时，请使用结构化询盘表单。', 'Используйте форму для мультибрендовых списков, холодовой цепи и вложений.')}</p></span></div><Link className="button primary" href={`/${locale}/rfq`}>{quote}<ArrowRight size={16}/></Link></section>
     </>

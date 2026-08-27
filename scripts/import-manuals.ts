@@ -1,4 +1,5 @@
 import { PrismaClient } from '@prisma/client'
+import { additionalPhone, telegramChannel } from '../lib/contact-channels'
 
 const prisma = new PrismaClient()
 
@@ -105,14 +106,16 @@ async function main() {
     { type: 'Email', label: 'Business email', value: 'zehongyan2025@outlook.com', href: 'mailto:zehongyan2025@outlook.com', sortOrder: 1 },
     { type: 'Phone', label: 'Luo', value: '+86 185 7584 8378', href: 'tel:+861857548378', sortOrder: 2 },
     { type: 'Phone', label: 'Bob', value: '+86 130 1853 7275', href: 'tel:+8613018537275', sortOrder: 3 },
-    { type: 'Address', label: 'Office', value: '5B36N, Building 210, Tairan Science Park, No. 113 Tairan 6th Road, Shatou Street, Futian District, Shenzhen, Guangdong, China', sortOrder: 4 },
-    { type: 'Hours', label: 'Office hours', value: 'Mon–Fri 09:00–18:00 (UTC+8)', sortOrder: 5 }
+    { ...additionalPhone, sortOrder: 4 },
+    { type: 'Address', label: 'Office', value: '5B36N, Building 210, Tairan Science Park, No. 113 Tairan 6th Road, Shatou Street, Futian District, Shenzhen, Guangdong, China', sortOrder: 5 },
+    { type: 'Hours', label: 'Office hours', value: 'Mon–Fri 09:00–18:00 (UTC+8)', sortOrder: 6 }
   ] })
 
   await prisma.socialLink.deleteMany({})
   await prisma.socialLink.createMany({ data: [
     { platform: 'WhatsApp', url: 'https://wa.me/861857548378', sortOrder: 1 },
-    { platform: 'VK', url: 'https://vk.com/', sortOrder: 2 }
+    { platform: 'VK', url: 'https://vk.com/', sortOrder: 2 },
+    { platform: telegramChannel.platform, url: telegramChannel.url, sortOrder: 3 }
   ] })
 
   await prisma.heroSlide.deleteMany({})
