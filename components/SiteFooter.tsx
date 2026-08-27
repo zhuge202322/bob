@@ -1,3 +1,4 @@
+import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { MessageCircle } from 'lucide-react'
@@ -42,7 +43,7 @@ export default function SiteFooter({
       </div>
       <div><p className="footer-label">{labels.catalogue}</p>{publicNavigation.slice(0, 3).map((item) => <Link key={item.href} href={`/${locale}${item.href}`}>{item.label[locale]}</Link>)}</div>
       <div><p className="footer-label">{labels.company}</p>{publicNavigation.slice(3).map((item) => <Link key={item.href} href={`/${locale}${item.href}`}>{item.label[locale]}</Link>)}</div>
-      <div className="stitch-footer-contact"><p className="footer-label">CONTACT</p>{email ? <a href={email.href}>{email.value}</a> : <a href="mailto:zehongyan2025@outlook.com">zehongyan2025@outlook.com</a>}{phones.map((phone) => <a key={`${phone.label}-${phone.value}`} href={phone.href}>{phone.value}</a>)}<a href={whatsapp}>WhatsApp</a><a href={vk}>VK</a><a href={telegram} target="_blank" rel="noreferrer">Telegram {telegramCard.displayValue}</a>{telegramCard.imageUrl ? <a className="stitch-footer-telegram" href={telegram} target="_blank" rel="noreferrer"><Image src={telegramCard.imageUrl} alt={`Telegram QR code for ${telegramCard.displayValue}`} width={96} height={116}/></a> : null}</div>
+      <div className="stitch-footer-contact"><p className="footer-label">CONTACT</p>{email ? <a href={email.href}>{email.value}</a> : <a href="mailto:zehongyan2025@outlook.com">zehongyan2025@outlook.com</a>}{phones.map((phone) => <a key={`${phone.label}-${phone.value}`} href={phone.href}>{phone.value}</a>)}<a href={whatsapp}>WhatsApp</a><a href={vk}>VK</a><a href={telegram} target="_blank" rel="noreferrer">Telegram {telegramCard.displayValue}</a></div>
       <div className="stitch-footer-legal"><span>{labels.legal}</span><span>© 2026 {siteName}</span></div>
     </footer>
     <nav className="stitch-mobile-contact" aria-label="Quick contact">
