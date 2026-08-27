@@ -1,7 +1,7 @@
 import { PrismaClient } from '@prisma/client'
 import { categories } from '../lib/data'
 import bcrypt from 'bcryptjs'
-import { additionalPhone, telegramChannel } from '../lib/contact-channels'
+import { additionalPhone, customerServiceDefaults } from '../lib/contact-channels'
 
 const prisma = new PrismaClient()
 
@@ -78,14 +78,16 @@ async function main() {
   const existingAdditionalPhone = await prisma.contact.findFirst({ where: { href: additionalPhone.href } })
   if (!existingAdditionalPhone) await prisma.contact.create({ data: { ...additionalPhone, sortOrder: 4 } })
   if (await prisma.socialLink.count() === 0) {
-    await prisma.socialLink.createMany({ data: [
-      { platform: 'WhatsApp', url: 'https://wa.me/861857548378', sortOrder: 1 },
-      { platform: 'VK', url: 'https://vk.com/', sortOrder: 2 }
-    ] })
+    await prisma.socialLink.createMany({ data: customerServiceDefaults.map((channel, index) => ({ ...channel, sortOrder: index + 1 })) })
   }
-  const existingTelegram = await prisma.socialLink.findFirst({ where: { platform: telegramChannel.platform } })
-  if (existingTelegram) await prisma.socialLink.update({ where: { id: existingTelegram.id }, data: { url: telegramChannel.url, enabled: true } })
-  else await prisma.socialLink.create({ data: { platform: telegramChannel.platform, url: telegramChannel.url, enabled: true, sortOrder: 3 } })
+  for (const [index, channel] of customerServiceDefaults.entries()) {
+    const existing = await prisma.socialLink.findFirst({ where: { platform: channel.platform } })
+    if (existing) {
+      await prisma.socialLink.update({ where: { id: existing.id }, data: { displayValue: existing.displayValue || channel.displayValue, imageUrl: existing.imageUrl || channel.imageUrl, enabled: true } })
+    } else {
+      await prisma.socialLink.create({ data: { ...channel, enabled: true, sortOrder: index + 1 } })
+    }
+  }
   if (await prisma.pageSection.count() === 0) {
     await prisma.pageSection.createMany({ data: [
       { pageKey: 'home', sectionKey: 'hero-1', title: 'Reliable access to research reagents and lab consumables', imageUrl: '/hero-lab.jpg', sortOrder: 1, status: 'PUBLISHED', publishedAt: new Date() },

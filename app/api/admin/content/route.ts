@@ -3,7 +3,7 @@ import { prisma } from '@/lib/prisma'
 import { requireUser } from '@/lib/auth/session'
 import { can } from '@/lib/auth/policy'
 import { assertSameOrigin, consumeRateLimit } from '@/lib/security'
-import { isContentCollection, stripContentReadOnlyFields, validateContentPayload } from '@/lib/admin/validation'
+import { isContentCollection, requiresPublicRevalidation, stripContentReadOnlyFields, validateContentPayload } from '@/lib/admin/validation'
 import { revalidatePath } from 'next/cache'
 
 const models = {
@@ -43,6 +43,7 @@ export async function POST(request: NextRequest) {
     const publishMeta = 'status' in validation.data && validation.data.status === 'PUBLISHED' && ['sections', 'heroSlides', 'articles'].includes(collection) ? { publishedAt: new Date() } : {}
     const item = await (models[collection] as any).create({ data: { ...validation.data, ...publishMeta } })
     await prisma.auditLog.create({ data: { userId: user.id, action: 'CREATE', entityType: collection, entityId: String(item.id), summary: `Created ${collection}` } })
+    if (requiresPublicRevalidation(collection)) revalidatePath('/', 'layout')
     return NextResponse.json(item, { status: 201 })
   } catch { return NextResponse.json({ error: 'Invalid content payload' }, { status: 400 }) }
 }
@@ -67,7 +68,7 @@ export async function PATCH(request: NextRequest) {
     const publishMeta = 'status' in validation.data && validation.data.status === 'PUBLISHED' && ['sections', 'heroSlides', 'articles'].includes(collection) ? { publishedAt: new Date() } : {}
     const item = await (models[collection] as any).update({ where: { id: Number(id) }, data: { ...validation.data, ...publishMeta } })
     await prisma.auditLog.create({ data: { userId: user.id, action: 'UPDATE', entityType: collection, entityId: String(id), summary: `Updated ${collection}` } })
-    if ('status' in validation.data) revalidatePath('/', 'layout')
+    if (requiresPublicRevalidation(collection)) revalidatePath('/', 'layout')
     return NextResponse.json(item)
   } catch { return NextResponse.json({ error: 'Invalid content payload' }, { status: 400 }) }
 }
@@ -91,6 +92,7 @@ export async function DELETE(request: NextRequest) {
   try {
     await (models[collection] as any).delete({ where: { id: Number(id) } })
     await prisma.auditLog.create({ data: { userId: user.id, action: 'DELETE', entityType: collection, entityId: String(id), summary: `Deleted ${collection}` } })
+    if (requiresPublicRevalidation(collection)) revalidatePath('/', 'layout')
     return NextResponse.json({ ok: true })
   } catch { return NextResponse.json({ error: 'Unable to delete record' }, { status: 409 }) }
 }

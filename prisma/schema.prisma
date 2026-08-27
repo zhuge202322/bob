@@ -109,11 +109,13 @@ model Contact {
 }
 
 model SocialLink {
-  id        Int     @id @default(autoincrement())
-  platform  String
-  url       String
-  enabled   Boolean @default(true)
-  sortOrder Int     @default(0)
+  id           Int     @id @default(autoincrement())
+  platform     String
+  url          String
+  displayValue String  @default("")
+  imageUrl     String  @default("")
+  enabled      Boolean @default(true)
+  sortOrder    Int     @default(0)
 }
 
 model PageSection {

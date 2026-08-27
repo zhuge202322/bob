@@ -1,5 +1,5 @@
 import { PrismaClient } from '@prisma/client'
-import { additionalPhone, telegramChannel } from '../lib/contact-channels'
+import { additionalPhone, customerServiceDefaults } from '../lib/contact-channels'
 
 const prisma = new PrismaClient()
 
@@ -111,12 +111,14 @@ async function main() {
     { type: 'Hours', label: 'Office hours', value: 'Mon–Fri 09:00–18:00 (UTC+8)', sortOrder: 6 }
   ] })
 
-  await prisma.socialLink.deleteMany({})
-  await prisma.socialLink.createMany({ data: [
-    { platform: 'WhatsApp', url: 'https://wa.me/861857548378', sortOrder: 1 },
-    { platform: 'VK', url: 'https://vk.com/', sortOrder: 2 },
-    { platform: telegramChannel.platform, url: telegramChannel.url, sortOrder: 3 }
-  ] })
+  for (const [index, channel] of customerServiceDefaults.entries()) {
+    const existing = await prisma.socialLink.findFirst({ where: { platform: channel.platform } })
+    if (existing) {
+      await prisma.socialLink.update({ where: { id: existing.id }, data: { url: existing.url || channel.url, displayValue: existing.displayValue || channel.displayValue, imageUrl: existing.imageUrl || channel.imageUrl, enabled: true, sortOrder: index + 1 } })
+    } else {
+      await prisma.socialLink.create({ data: { ...channel, enabled: true, sortOrder: index + 1 } })
+    }
+  }
 
   await prisma.heroSlide.deleteMany({})
   await prisma.heroSlide.createMany({ data: [

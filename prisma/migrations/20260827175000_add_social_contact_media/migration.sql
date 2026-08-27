@@ -1,0 +1,2 @@
+ALTER TABLE "SocialLink" ADD COLUMN "displayValue" TEXT NOT NULL DEFAULT '';
+ALTER TABLE "SocialLink" ADD COLUMN "imageUrl" TEXT NOT NULL DEFAULT '';

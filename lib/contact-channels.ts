@@ -11,3 +11,36 @@ export const telegramChannel = {
   url: 'https://t.me/BOBRICARDO001',
   qrImage: '/contact/telegram-bobricardo001.png'
 } as const
+
+export type ManagedSocialChannel = {
+  platform: string
+  url: string
+  displayValue?: string
+  imageUrl?: string
+}
+
+export type CustomerServiceCard = {
+  platform: 'WhatsApp' | 'VK' | 'Telegram'
+  url: string
+  displayValue: string
+  imageUrl: string
+}
+
+export const customerServiceDefaults: CustomerServiceCard[] = [
+  { platform: 'WhatsApp', url: 'https://wa.me/861857548378', displayValue: '+86 185 7584 8378', imageUrl: '' },
+  { platform: 'VK', url: 'https://vk.com/', displayValue: '+86 130 1853 7275', imageUrl: '' },
+  { platform: 'Telegram', url: telegramChannel.url, displayValue: telegramChannel.handle, imageUrl: telegramChannel.qrImage }
+]
+
+export function buildCustomerServiceCards(items: ManagedSocialChannel[]): CustomerServiceCard[] {
+  return customerServiceDefaults.map((fallback) => {
+    const managed = items.find((item) => item.platform.toLowerCase() === fallback.platform.toLowerCase())
+    if (!managed) return fallback
+    return {
+      platform: fallback.platform,
+      url: managed.url || fallback.url,
+      displayValue: managed.displayValue?.trim() || fallback.displayValue,
+      imageUrl: managed.imageUrl ?? fallback.imageUrl
+    }
+  })
+}

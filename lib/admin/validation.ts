@@ -21,7 +21,7 @@ const product = z.object({
 }).strict()
 
 const contact = z.object({ type: text(40), label: text(120), value: text(300), href: safeHref, enabled: z.boolean(), sortOrder: z.number().int().min(-100000).max(100000) }).strict()
-const social = z.object({ platform: text(40), url: externalUrl, enabled: z.boolean(), sortOrder: z.number().int().min(-100000).max(100000) }).strict()
+const social = z.object({ platform: text(40), url: externalUrl, displayValue: optionalText(160), imageUrl: assetPath, enabled: z.boolean(), sortOrder: z.number().int().min(-100000).max(100000) }).strict()
 const section = z.object({
   pageKey: text(120), sectionKey: text(120), title: optionalText(300), titleZh: optionalText(300), titleRu: optionalText(300),
   body: optionalText(10000), bodyZh: optionalText(10000), bodyRu: optionalText(10000), ctaLabel: optionalText(120), ctaHref: safeHref,
@@ -45,6 +45,10 @@ export type ContentCollection = keyof typeof schemas
 
 export function isContentCollection(value: unknown): value is ContentCollection {
   return typeof value === 'string' && value in schemas
+}
+
+export function requiresPublicRevalidation(value: unknown) {
+  return isContentCollection(value)
 }
 
 export function validateContentPayload(collection: string, data: unknown, partial = false) {
