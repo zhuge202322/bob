@@ -1,0 +1,15 @@
+node_modules/
+.next/
+.env
+*.tsbuildinfo
+prisma/*.db
+prisma/*.db-*
+storage/uploads/
+storage/private/
+backups/
+tmp/
+.superpowers/
+网站资料/
+8c7c561f78f5720494b9745daeac053d.jpg
+test-results/
+playwright-report/

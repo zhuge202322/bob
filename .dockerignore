@@ -1,0 +1,11 @@
+node_modules
+.next
+.git
+.env
+prisma/dev.db*
+storage
+backups
+tmp
+.superpowers
+网站资料
+*.log

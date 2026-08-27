@@ -1,0 +1,274 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model SiteSetting {
+  id            Int      @id @default(1)
+  siteName      String   @default("Zehongyan Biotech")
+  siteNameZh    String   @default("Zehongyan Biotech")
+  siteNameRu    String   @default("Zehongyan Biotech")
+  logoUrl       String   @default("/hocore-logo.jpg")
+  faviconUrl    String   @default("")
+  defaultLocale String   @default("en")
+  updatedAt     DateTime @updatedAt
+}
+
+model User {
+  id           Int        @id @default(autoincrement())
+  email        String     @unique
+  name         String
+  passwordHash String
+  role         String     @default("EDITOR")
+  active       Boolean    @default(true)
+  sessions     Session[]
+  audits       AuditLog[]
+  rfqNotes     RfqNote[]
+  createdAt    DateTime   @default(now())
+  updatedAt    DateTime   @updatedAt
+}
+
+model Session {
+  id        Int      @id @default(autoincrement())
+  tokenHash String   @unique
+  userId    Int
+  expiresAt DateTime
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  createdAt DateTime @default(now())
+  @@index([userId, expiresAt])
+}
+
+model AuditLog {
+  id         Int      @id @default(autoincrement())
+  userId     Int?
+  action     String
+  entityType String
+  entityId   String
+  summary    String   @default("")
+  ip         String   @default("")
+  user       User?    @relation(fields: [userId], references: [id], onDelete: SetNull)
+  createdAt  DateTime @default(now())
+  @@index([entityType, entityId])
+}
+
+model ProductCategory {
+  id          Int       @id @default(autoincrement())
+  name        String
+  nameZh      String    @default("")
+  nameRu      String    @default("")
+  slug        String    @default("")
+  line        String
+  description String    @default("")
+  descriptionZh String  @default("")
+  descriptionRu String  @default("")
+  specifications String @default("")
+  brands      String    @default("")
+  temperature String    @default("AMBIENT")
+  status      String    @default("PUBLISHED")
+  imageUrl    String    @default("")
+  sortOrder   Int       @default(0)
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+  products    Product[]
+}
+
+model Product {
+  id            Int             @id @default(autoincrement())
+  name          String
+  nameZh        String          @default("")
+  nameRu        String          @default("")
+  slug          String          @default("")
+  categoryId    Int
+  brand         String          @default("")
+  catNo         String          @default("")
+  specification String          @default("")
+  description   String          @default("")
+  descriptionZh String          @default("")
+  descriptionRu String          @default("")
+  application   String          @default("")
+  temperature   String          @default("Ambient")
+  imageUrl      String          @default("")
+  status        String          @default("PUBLISHED")
+  createdAt     DateTime        @default(now())
+  updatedAt     DateTime        @updatedAt
+  category      ProductCategory @relation(fields: [categoryId], references: [id], onDelete: Restrict)
+}
+
+model Contact {
+  id        Int     @id @default(autoincrement())
+  type      String
+  label     String
+  value     String
+  href      String  @default("")
+  enabled   Boolean @default(true)
+  sortOrder Int     @default(0)
+}
+
+model SocialLink {
+  id        Int     @id @default(autoincrement())
+  platform  String
+  url       String
+  enabled   Boolean @default(true)
+  sortOrder Int     @default(0)
+}
+
+model PageSection {
+  id         Int      @id @default(autoincrement())
+  pageKey    String
+  sectionKey String
+  title      String   @default("")
+  titleZh    String   @default("")
+  titleRu    String   @default("")
+  body       String   @default("")
+  bodyZh     String   @default("")
+  bodyRu     String   @default("")
+  ctaLabel   String   @default("")
+  ctaHref    String   @default("")
+  imageUrl   String   @default("")
+  enabled    Boolean  @default(true)
+  status     String   @default("PUBLISHED")
+  publishedAt DateTime?
+  deletedAt  DateTime?
+  sortOrder  Int      @default(0)
+  updatedAt  DateTime @updatedAt
+
+  @@unique([pageKey, sectionKey])
+}
+
+model HeroSlide {
+  id            Int      @id @default(autoincrement())
+  kicker        String   @default("")
+  kickerZh      String   @default("")
+  kickerRu      String   @default("")
+  title         String
+  titleZh       String   @default("")
+  titleRu       String   @default("")
+  body          String   @default("")
+  bodyZh        String   @default("")
+  bodyRu        String   @default("")
+  imageUrl      String
+  mobileImageUrl String  @default("")
+  focalPoint    String   @default("50% 50%")
+  ctaLabel      String   @default("")
+  ctaLabelZh    String   @default("")
+  ctaLabelRu    String   @default("")
+  ctaHref       String   @default("/rfq")
+  enabled       Boolean  @default(true)
+  status        String   @default("PUBLISHED")
+  publishedAt   DateTime?
+  deletedAt     DateTime?
+  sortOrder     Int      @default(0)
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+}
+
+model Rfq {
+  id          Int      @id @default(autoincrement())
+  reference   String   @unique
+  idempotencyKey String? @unique
+  company     String
+  customerType String  @default("END_USER")
+  contactName String   @default("")
+  email       String
+  messenger   String   @default("")
+  country     String   @default("")
+  city        String   @default("")
+  brand       String   @default("")
+  catNo       String   @default("")
+  brandCatNo  String   @default("")
+  quantity    String   @default("")
+  description String
+  temperature String   @default("UNKNOWN")
+  desiredDeliveryDate DateTime?
+  notes       String   @default("")
+  locale      String   @default("en")
+  sourcePath  String   @default("/en/rfq")
+  consentAt   DateTime @default(now())
+  status      String   @default("NEW")
+  notificationStatus String @default("PENDING")
+  notificationError String @default("")
+  notificationAttempts Int @default(0)
+  notifiedAt  DateTime?
+  archivedAt  DateTime?
+  attachments RfqAttachment[]
+  internalNotes RfqNote[]
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model RfqAttachment {
+  id           Int      @id @default(autoincrement())
+  rfqId        Int
+  storageKey   String   @unique
+  originalName String
+  mimeType     String
+  byteSize     Int
+  sha256       String
+  rfq          Rfq      @relation(fields: [rfqId], references: [id], onDelete: Cascade)
+  createdAt    DateTime @default(now())
+}
+
+model RfqNote {
+  id        Int      @id @default(autoincrement())
+  rfqId     Int
+  authorId  Int
+  body      String
+  rfq       Rfq      @relation(fields: [rfqId], references: [id], onDelete: Cascade)
+  author    User     @relation(fields: [authorId], references: [id], onDelete: Restrict)
+  createdAt DateTime @default(now())
+}
+
+model MediaAsset {
+  id           Int      @id @default(autoincrement())
+  storageKey   String   @unique
+  publicUrl    String   @default("")
+  originalName String
+  mimeType     String
+  byteSize     Int
+  width        Int?
+  height       Int?
+  sha256       String
+  altEn        String   @default("")
+  altZh        String   @default("")
+  altRu        String   @default("")
+  visibility   String   @default("PUBLIC")
+  createdAt    DateTime @default(now())
+}
+
+model Article {
+  id             Int      @id @default(autoincrement())
+  topic          String
+  title          String
+  titleZh        String   @default("")
+  titleRu        String   @default("")
+  slug           String
+  summary        String   @default("")
+  summaryZh      String   @default("")
+  summaryRu      String   @default("")
+  body           String   @default("")
+  bodyZh         String   @default("")
+  bodyRu         String   @default("")
+  coverImageUrl  String   @default("")
+  reviewer       String   @default("Hocore Technical & Supply Team")
+  status         String   @default("PUBLISHED")
+  publishedAt    DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+  @@unique([slug])
+}
+
+model Faq {
+  id        Int     @id @default(autoincrement())
+  topic     String
+  question  String
+  questionZh String @default("")
+  questionRu String @default("")
+  answer    String
+  answerZh  String  @default("")
+  answerRu  String  @default("")
+  sortOrder Int     @default(0)
+  enabled   Boolean @default(true)
+}
