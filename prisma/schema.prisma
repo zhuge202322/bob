@@ -71,6 +71,10 @@ model ProductCategory {
   status      String    @default("PUBLISHED")
   imageUrl    String    @default("")
   sortOrder   Int       @default(0)
+  level       Int       @default(1)
+  parentId    Int?
+  parent      ProductCategory? @relation("CategoryTree", fields: [parentId], references: [id], onDelete: Restrict)
+  children    ProductCategory[] @relation("CategoryTree")
   createdAt   DateTime  @default(now())
   updatedAt   DateTime  @updatedAt
   products    Product[]
@@ -90,6 +94,8 @@ model Product {
   descriptionZh String          @default("")
   descriptionRu String          @default("")
   application   String          @default("")
+  citationNote  String          @default("")
+  sourceNote    String          @default("")
   temperature   String          @default("Ambient")
   imageUrl      String          @default("")
   status        String          @default("PUBLISHED")

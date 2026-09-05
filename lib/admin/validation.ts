@@ -10,12 +10,12 @@ const category = z.object({
   name: text(160), nameZh: optionalText(160), nameRu: optionalText(160), slug: optionalText(180),
   line: text(120), description: optionalText(5000), descriptionZh: optionalText(5000), descriptionRu: optionalText(5000),
   specifications: optionalText(5000), brands: optionalText(1000), temperature: text(40).default('AMBIENT'), status: z.enum(['DRAFT', 'PUBLISHED', 'ARCHIVED']).default('DRAFT'),
-  imageUrl: assetPath, sortOrder: z.number().int().min(-100000).max(100000)
+  imageUrl: assetPath, sortOrder: z.number().int().min(-100000).max(100000), level: z.number().int().min(1).max(3).default(1), parentId: z.number().int().positive().nullable().optional()
 }).strict()
 
 const product = z.object({
   name: text(200), nameZh: optionalText(200), nameRu: optionalText(200), slug: optionalText(220), categoryId: z.number().int().positive(),
-  brand: optionalText(160), catNo: optionalText(160), specification: optionalText(5000), description: optionalText(5000),
+  brand: optionalText(160), catNo: optionalText(160), specification: optionalText(5000), description: optionalText(5000), citationNote: optionalText(5000), sourceNote: optionalText(1000),
   descriptionZh: optionalText(5000), descriptionRu: optionalText(5000), application: optionalText(2000), temperature: text(40), imageUrl: assetPath,
   status: z.enum(['DRAFT', 'PUBLISHED', 'ARCHIVED']).default('DRAFT')
 }).strict()

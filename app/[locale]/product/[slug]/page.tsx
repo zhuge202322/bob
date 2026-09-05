@@ -7,6 +7,7 @@ import SiteHeader from '@/components/SiteHeader'
 import { prisma } from '@/lib/prisma'
 import { locales, parseLocale, type Locale } from '@/lib/i18n'
 import { slugify } from '@/lib/slug'
+import { productCategoryLabel } from '@/lib/product-category-labels'
 
 export default async function ProductPage({ params }: { params: Promise<{ locale: string; slug: string }> }) {
   const { locale: raw, slug } = await params
@@ -21,7 +22,7 @@ export default async function ProductPage({ params }: { params: Promise<{ locale
   if (!product || product.category.status !== 'PUBLISHED') notFound()
   const name = locale === 'zh' ? product.nameZh || product.name : locale === 'ru' ? product.nameRu || product.name : product.name
   const description = locale === 'zh' ? product.descriptionZh || product.description : locale === 'ru' ? product.descriptionRu || product.description : product.description
-  const categoryName = locale === 'zh' ? product.category.nameZh || product.category.name : locale === 'ru' ? product.category.nameRu || product.category.name : product.category.name
+  const categoryName = locale === 'zh' ? product.category.nameZh || product.category.name : locale === 'ru' ? product.category.nameRu || product.category.name : productCategoryLabel(product.category.name, 'en')
   const copy = locale === 'zh'
     ? { back: '返回所属品类', quote: '询价此产品', specification: '规格说明', application: '用途范围', record: '采购信息', brand: '品牌', category: '所属品类', docs: '可提供文件', docsBody: 'COA、TDS、SDS 与批次资料按具体品牌和型号确认。' }
     : locale === 'ru'
@@ -32,7 +33,7 @@ export default async function ProductPage({ params }: { params: Promise<{ locale
     <SiteHeader locale={locale} socials={socials}/>
     <section className="stitch-product-detail stitch-container">
       <div className="stitch-product-detail-media">{product.imageUrl ? <Image src={product.imageUrl} alt={name} fill priority sizes="(max-width: 900px) 100vw, 46vw"/> : null}</div>
-      <div className="stitch-product-detail-copy"><Link className="stitch-breadcrumb" href={`/${locale}/products/${product.category.slug || slugify(product.category.name)}`}>{copy.back}<ArrowRight size={13}/></Link><span className="stitch-overline">{product.brand || categoryName}</span><h1>{name}</h1><p>{description || product.specification}</p><dl><div><dt>CAT No.</dt><dd>{product.catNo || 'Confirm with specification'}</dd></div><div><dt><Thermometer size={15}/>{locale === 'zh' ? '储存温区' : locale === 'ru' ? 'Хранение' : 'Storage'}</dt><dd>{product.temperature}</dd></div><div><dt>{copy.brand}</dt><dd>{product.brand}</dd></div><div><dt>{copy.category}</dt><dd>{categoryName}</dd></div></dl><Link className="button primary" href={`/${locale}/rfq?category=${encodeURIComponent(product.category.name)}&catNo=${encodeURIComponent(product.catNo)}`}>{copy.quote}<ArrowRight size={16}/></Link></div>
+      <div className="stitch-product-detail-copy"><Link className="stitch-breadcrumb" href={`/${locale}/products/${product.category.slug || slugify(product.category.name)}`}>{copy.back}<ArrowRight size={13}/></Link><span className="stitch-overline">{product.brand || categoryName}</span><h1>{name}</h1><p>{description || product.specification}</p><dl><div><dt>CAT No.</dt><dd>{product.catNo || 'Confirm with specification'}</dd></div><div><dt><Thermometer size={15}/>{locale === 'zh' ? '储存温区' : locale === 'ru' ? 'Хранение' : 'Storage'}</dt><dd>{product.temperature}</dd></div><div><dt>{copy.brand}</dt><dd>{product.brand}</dd></div><div><dt>{copy.category}</dt><dd>{categoryName}</dd></div></dl><Link className="button primary" href={`/${locale}/rfq?category=${encodeURIComponent(categoryName)}&catNo=${encodeURIComponent(product.catNo)}`}>{copy.quote}<ArrowRight size={16}/></Link></div>
     </section>
 
     <section className="stitch-product-information">

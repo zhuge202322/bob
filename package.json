@@ -16,6 +16,7 @@
     "db:deploy": "prisma migrate deploy",
     "db:seed": "tsx prisma/seed.ts",
     "db:import-manuals": "tsx scripts/import-manuals.ts",
+    "db:import-products": "tsx scripts/import-product-workbook.ts",
     "db:studio": "prisma studio",
     "backup": "tsx scripts/backup.ts",
     "restore": "tsx scripts/restore.ts"

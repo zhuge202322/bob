@@ -1,0 +1,4502 @@
+[
+  {
+    "level1": "科研试剂",
+    "level2": "分子生物学试剂",
+    "level3": "PCR与qPCR试剂",
+    "productName": "PowerUp SYBR Green Master Mix",
+    "brand": "Thermo Fisher",
+    "catNo": "A25742",
+    "citationNote": "广泛高引用，qPCR金标准",
+    "sourceNote": "已查证"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "分子生物学试剂",
+    "level3": "PCR与qPCR试剂",
+    "productName": "iTaq Universal SYBR Green Supermix",
+    "brand": "Bio-Rad",
+    "catNo": "1725121",
+    "citationNote": "高引用，MIQE指南推荐",
+    "sourceNote": "已查证"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "分子生物学试剂",
+    "level3": "PCR与qPCR试剂",
+    "productName": "TaqMan Universal Master Mix II",
+    "brand": "Applied Biosystems",
+    "catNo": "4440038",
+    "citationNote": "探针法qPCR高引用",
+    "sourceNote": "已查证"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "分子生物学试剂",
+    "level3": "PCR与qPCR试剂",
+    "productName": "Platinum Taq DNA Polymerase",
+    "brand": "Invitrogen",
+    "catNo": "10966034",
+    "citationNote": "经典PCR酶，超高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "分子生物学试剂",
+    "level3": "PCR与qPCR试剂",
+    "productName": "ddPCR Supermix for Probes",
+    "brand": "Bio-Rad",
+    "catNo": "1863024",
+    "citationNote": "数字PCR高引用",
+    "sourceNote": "已查证"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "分子生物学试剂",
+    "level3": "逆转录与cDNA合成",
+    "productName": "SuperScript III Reverse Transcriptase",
+    "brand": "Invitrogen",
+    "catNo": "18080044",
+    "citationNote": "超过50,000次引用",
+    "sourceNote": "已查证"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "分子生物学试剂",
+    "level3": "逆转录与cDNA合成",
+    "productName": "SuperScript IV Reverse Transcriptase",
+    "brand": "Invitrogen",
+    "catNo": "18090010",
+    "citationNote": "2022-2024年引用超10,000次",
+    "sourceNote": "已查证"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "分子生物学试剂",
+    "level3": "逆转录与cDNA合成",
+    "productName": "SuperScript II Reverse Transcriptase",
+    "brand": "Invitrogen",
+    "catNo": "18064014",
+    "citationNote": "超过50,000次引用",
+    "sourceNote": "已查证"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "分子生物学试剂",
+    "level3": "逆转录与cDNA合成",
+    "productName": "SuperScript IV VILO Master Mix",
+    "brand": "Invitrogen",
+    "catNo": "11756050",
+    "citationNote": "一步法cDNA高引用",
+    "sourceNote": "已查证"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "分子生物学试剂",
+    "level3": "逆转录与cDNA合成",
+    "productName": "iScript cDNA Synthesis Kit",
+    "brand": "Bio-Rad",
+    "catNo": "1708891",
+    "citationNote": "高引用，操作简便",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "分子生物学试剂",
+    "level3": "核酸扩增与克隆",
+    "productName": "TOPO TA Cloning Kit",
+    "brand": "Invitrogen",
+    "catNo": "K457501",
+    "citationNote": "经典TA克隆，超高引用",
+    "sourceNote": "已查证"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "分子生物学试剂",
+    "level3": "核酸扩增与克隆",
+    "productName": "Gibson Assembly Cloning Kit",
+    "brand": "NEB",
+    "catNo": "E5510",
+    "citationNote": "Gibson 2009 Nature Methods原始方法",
+    "sourceNote": "已查证"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "分子生物学试剂",
+    "level3": "核酸扩增与克隆",
+    "productName": "NEBuilder HiFi DNA Assembly Master Mix",
+    "brand": "NEB",
+    "catNo": "E2621",
+    "citationNote": "高引用无缝克隆",
+    "sourceNote": "已查证"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "分子生物学试剂",
+    "level3": "核酸扩增与克隆",
+    "productName": "In-Fusion HD Cloning Kit",
+    "brand": "Clontech/Takara",
+    "catNo": "639645",
+    "citationNote": "高引用无缝克隆",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "分子生物学试剂",
+    "level3": "核酸扩增与克隆",
+    "productName": "Zero Blunt TOPO PCR Cloning Kit",
+    "brand": "Invitrogen",
+    "catNo": "K287540",
+    "citationNote": "平末端克隆高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "分子生物学试剂",
+    "level3": "核酸提取与纯化",
+    "productName": "DNeasy Blood & Tissue Kit",
+    "brand": "QIAGEN",
+    "catNo": "69504",
+    "citationNote": "基因组DNA提取金标准，超高引用",
+    "sourceNote": "已查证"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "分子生物学试剂",
+    "level3": "核酸提取与纯化",
+    "productName": "QIAamp DNA Blood Mini Kit",
+    "brand": "QIAGEN",
+    "catNo": "51104",
+    "citationNote": "血液DNA提取高引用",
+    "sourceNote": "已查证"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "分子生物学试剂",
+    "level3": "核酸提取与纯化",
+    "productName": "RNeasy Mini Kit",
+    "brand": "QIAGEN",
+    "catNo": "74104",
+    "citationNote": "RNA提取金标准，超高引用",
+    "sourceNote": "已查证"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "分子生物学试剂",
+    "level3": "核酸提取与纯化",
+    "productName": "Quick-DNA Miniprep Kit",
+    "brand": "Zymo Research",
+    "catNo": "D3024",
+    "citationNote": "高引用，质粒提取",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "分子生物学试剂",
+    "level3": "核酸提取与纯化",
+    "productName": "PureLink RNA Mini Kit",
+    "brand": "Thermo Fisher",
+    "catNo": "12183018A",
+    "citationNote": "RNA提取高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "分子生物学试剂",
+    "level3": "核酸标记与检测",
+    "productName": "SYBR Safe DNA Gel Stain",
+    "brand": "Thermo Fisher",
+    "catNo": "S33102",
+    "citationNote": "核酸凝胶染色金标准，高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "分子生物学试剂",
+    "level3": "核酸标记与检测",
+    "productName": "GelRed Nucleic Acid Gel Stain",
+    "brand": "Biotium",
+    "catNo": "41003",
+    "citationNote": "高引用，EB替代品",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "分子生物学试剂",
+    "level3": "核酸标记与检测",
+    "productName": "Ethidium Bromide Solution",
+    "brand": "Thermo Fisher",
+    "catNo": "15585011",
+    "citationNote": "经典核酸染色，超高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "分子生物学试剂",
+    "level3": "核酸标记与检测",
+    "productName": "DIG DNA Labeling and Detection Kit",
+    "brand": "Roche",
+    "catNo": "11175033910",
+    "citationNote": "地高辛标记高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "分子生物学试剂",
+    "level3": "核酸标记与检测",
+    "productName": "Alexa Fluor 546 DNA Labeling Kit",
+    "brand": "Thermo Fisher",
+    "catNo": "A20194",
+    "citationNote": "荧光标记高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "分子生物学试剂",
+    "level3": "基因编辑试剂",
+    "productName": "Alt-R CRISPR-Cas9 System",
+    "brand": "IDT",
+    "catNo": "1081058",
+    "citationNote": "CRISPR编辑高引用系统",
+    "sourceNote": "已查证"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "分子生物学试剂",
+    "level3": "基因编辑试剂",
+    "productName": "TrueCut Cas9 Protein v2",
+    "brand": "Invitrogen",
+    "catNo": "A36499",
+    "citationNote": "Cas9蛋白高引用",
+    "sourceNote": "已查证"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "分子生物学试剂",
+    "level3": "基因编辑试剂",
+    "productName": "Alt-R S.p. HiFi Cas9 Nuclease V3",
+    "brand": "IDT",
+    "catNo": "108105559",
+    "citationNote": "高保真Cas9高引用",
+    "sourceNote": "已查证"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "分子生物学试剂",
+    "level3": "基因编辑试剂",
+    "productName": "TrueGuide Synthetic gRNA",
+    "brand": "Invitrogen",
+    "catNo": "A35511",
+    "citationNote": "合成gRNA高引用",
+    "sourceNote": "已查证"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "分子生物学试剂",
+    "level3": "基因编辑试剂",
+    "productName": "CRISPR/Cas9 KO Plasmid",
+    "brand": "Sigma-Aldrich",
+    "catNo": "KO质粒",
+    "citationNote": "质粒型CRISPR高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "分子生物学试剂",
+    "level3": "测序与NGS试剂",
+    "productName": "Nextera XT DNA Library Preparation Kit",
+    "brand": "Illumina",
+    "catNo": "FC-131-1024",
+    "citationNote": "NGS文库构建金标准，超高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "分子生物学试剂",
+    "level3": "测序与NGS试剂",
+    "productName": "TruSeq RNA Library Prep Kit v2",
+    "brand": "Illumina",
+    "catNo": "RS-122-2001",
+    "citationNote": "RNA-seq文库高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "分子生物学试剂",
+    "level3": "测序与NGS试剂",
+    "productName": "NEBNext Ultra II DNA Library Prep Kit",
+    "brand": "NEB",
+    "catNo": "E7645",
+    "citationNote": "高引用文库构建",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "分子生物学试剂",
+    "level3": "测序与NGS试剂",
+    "productName": "Ion Xpress Plus Fragment Library Kit",
+    "brand": "Thermo Fisher",
+    "catNo": "4471269",
+    "citationNote": "Ion Torrent测序高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "分子生物学试剂",
+    "level3": "测序与NGS试剂",
+    "productName": "QIAseq FX DNA Library Kit",
+    "brand": "QIAGEN",
+    "catNo": "180473",
+    "citationNote": "高引用文库构建",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "分子生物学试剂",
+    "level3": "分子生物学专用酶",
+    "productName": "T4 DNA Ligase",
+    "brand": "NEB",
+    "catNo": "M0202",
+    "citationNote": "DNA连接金标准，超高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "分子生物学试剂",
+    "level3": "分子生物学专用酶",
+    "productName": "EcoRI-HF Restriction Enzyme",
+    "brand": "NEB",
+    "catNo": "R3101",
+    "citationNote": "限制性内切酶高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "分子生物学试剂",
+    "level3": "分子生物学专用酶",
+    "productName": "Phusion High-Fidelity DNA Polymerase",
+    "brand": "NEB",
+    "catNo": "M0530",
+    "citationNote": "高保真PCR酶高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "分子生物学试剂",
+    "level3": "分子生物学专用酶",
+    "productName": "Platinum Taq High Fidelity",
+    "brand": "Invitrogen",
+    "catNo": "11304011",
+    "citationNote": "高保真PCR高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "分子生物学试剂",
+    "level3": "分子生物学专用酶",
+    "productName": "GoTaq DNA Polymerase",
+    "brand": "Promega",
+    "catNo": "M3001",
+    "citationNote": "常规PCR高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "细胞培养与细胞生物学试剂",
+    "level3": "细胞培养基",
+    "productName": "DMEM (High Glucose)",
+    "brand": "Gibco",
+    "catNo": "11965092",
+    "citationNote": "2016年31,300篇论文使用，Gibco占全球培养基引用52%",
+    "sourceNote": "已查证"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "细胞培养与细胞生物学试剂",
+    "level3": "细胞培养基",
+    "productName": "RPMI 1640 Medium",
+    "brand": "Gibco",
+    "catNo": "11875093",
+    "citationNote": "2016年24,700篇论文使用",
+    "sourceNote": "已查证"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "细胞培养与细胞生物学试剂",
+    "level3": "细胞培养基",
+    "productName": "MEM (Minimum Essential Medium)",
+    "brand": "Gibco",
+    "catNo": "11095080",
+    "citationNote": "2016年6,480篇论文使用",
+    "sourceNote": "已查证"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "细胞培养与细胞生物学试剂",
+    "level3": "细胞培养基",
+    "productName": "RPMI-1640 Medium",
+    "brand": "Sigma-Aldrich",
+    "catNo": "R5382",
+    "citationNote": "高引用培养基",
+    "sourceNote": "已查证"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "细胞培养与细胞生物学试剂",
+    "level3": "细胞培养基",
+    "productName": "Opti-MEM I Reduced Serum Medium",
+    "brand": "Gibco",
+    "catNo": "31985062",
+    "citationNote": "转染专用高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "细胞培养与细胞生物学试剂",
+    "level3": "胎牛血清与血清替代",
+    "productName": "Fetal Bovine Serum (FBS)",
+    "brand": "Gibco",
+    "catNo": "10099141",
+    "citationNote": "全球引用率最高的血清品牌",
+    "sourceNote": "已查证"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "细胞培养与细胞生物学试剂",
+    "level3": "胎牛血清与血清替代",
+    "productName": "Fetal Bovine Serum",
+    "brand": "Cytiva Hyclone",
+    "catNo": "SH30071.03",
+    "citationNote": "49篇引用（labome数据）",
+    "sourceNote": "已查证"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "细胞培养与细胞生物学试剂",
+    "level3": "胎牛血清与血清替代",
+    "productName": "Fetal Bovine Serum",
+    "brand": "Sigma-Aldrich",
+    "catNo": "F7524",
+    "citationNote": "33篇引用（labome数据）",
+    "sourceNote": "已查证"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "细胞培养与细胞生物学试剂",
+    "level3": "胎牛血清与血清替代",
+    "productName": "Exosome-Depleted FBS",
+    "brand": "Gibco",
+    "catNo": "A2720803",
+    "citationNote": "外泌体研究高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "细胞培养与细胞生物学试剂",
+    "level3": "胎牛血清与血清替代",
+    "productName": "KnockOut Serum Replacement",
+    "brand": "Gibco",
+    "catNo": "10828028",
+    "citationNote": "干细胞培养无血清替代高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "细胞培养与细胞生物学试剂",
+    "level3": "细胞培养添加物",
+    "productName": "Penicillin-Streptomycin (100X)",
+    "brand": "Gibco",
+    "catNo": "15140122",
+    "citationNote": "双抗金标准，超高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "细胞培养与细胞生物学试剂",
+    "level3": "细胞培养添加物",
+    "productName": "L-Glutamine (200mM)",
+    "brand": "Gibco",
+    "catNo": "25030081",
+    "citationNote": "谷氨酰胺高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "细胞培养与细胞生物学试剂",
+    "level3": "细胞培养添加物",
+    "productName": "Non-Essential Amino Acids (100X)",
+    "brand": "Gibco",
+    "catNo": "11140050",
+    "citationNote": "NEAA高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "细胞培养与细胞生物学试剂",
+    "level3": "细胞培养添加物",
+    "productName": "Sodium Pyruvate (100mM)",
+    "brand": "Gibco",
+    "catNo": "11360070",
+    "citationNote": "丙酮酸钠高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "细胞培养与细胞生物学试剂",
+    "level3": "细胞培养添加物",
+    "productName": "HEPES Buffer (1M)",
+    "brand": "Gibco",
+    "catNo": "15630080",
+    "citationNote": "缓冲剂高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "细胞培养与细胞生物学试剂",
+    "level3": "细胞消化与解离试剂",
+    "productName": "Trypsin-EDTA (0.25%)",
+    "brand": "Gibco",
+    "catNo": "25200056",
+    "citationNote": "细胞消化金标准，超高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "细胞培养与细胞生物学试剂",
+    "level3": "细胞消化与解离试剂",
+    "productName": "Trypsin-EDTA (0.05%)",
+    "brand": "Gibco",
+    "catNo": "25300054",
+    "citationNote": "温和消化高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "细胞培养与细胞生物学试剂",
+    "level3": "细胞消化与解离试剂",
+    "productName": "Accutase Cell Detachment Solution",
+    "brand": "Sigma-Aldrich",
+    "catNo": "A6964",
+    "citationNote": "干细胞消化高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "细胞培养与细胞生物学试剂",
+    "level3": "细胞消化与解离试剂",
+    "productName": "Cell Dissociation Buffer (Enzyme-Free)",
+    "brand": "Gibco",
+    "catNo": "13151014",
+    "citationNote": "无酶解离高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "细胞培养与细胞生物学试剂",
+    "level3": "细胞消化与解离试剂",
+    "productName": "Dispase II",
+    "brand": "Sigma-Aldrich",
+    "catNo": "D4693",
+    "citationNote": "组织解离高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "细胞培养与细胞生物学试剂",
+    "level3": "细胞冻存与复苏",
+    "productName": "DMSO (Hybridoma Grade)",
+    "brand": "Sigma-Aldrich",
+    "catNo": "D2650",
+    "citationNote": "冻存液金标准，超高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "细胞培养与细胞生物学试剂",
+    "level3": "细胞冻存与复苏",
+    "productName": "Recovery Cell Culture Freezing Medium",
+    "brand": "Gibco",
+    "catNo": "12648010",
+    "citationNote": "程序降温冻存液高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "细胞培养与细胞生物学试剂",
+    "level3": "细胞冻存与复苏",
+    "productName": "CryoStor CS10 Freeze Medium",
+    "brand": "StemCell",
+    "catNo": "07930",
+    "citationNote": "干细胞冻存高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "细胞培养与细胞生物学试剂",
+    "level3": "细胞冻存与复苏",
+    "productName": "Synth-a-Freeze Cryopreservation Medium",
+    "brand": "Gibco",
+    "catNo": "A1254201",
+    "citationNote": "无蛋白冻存液高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "细胞培养与细胞生物学试剂",
+    "level3": "细胞冻存与复苏",
+    "productName": "Bambanker Serum-Free Freezing Medium",
+    "brand": "Nippon Genetics",
+    "catNo": "BB01",
+    "citationNote": "无血清冻存高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "细胞培养与细胞生物学试剂",
+    "level3": "细胞增殖与毒性检测",
+    "productName": "CCK-8 Cell Counting Kit",
+    "brand": "Dojindo",
+    "catNo": "CK04",
+    "citationNote": "增殖检测金标准，超高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "细胞培养与细胞生物学试剂",
+    "level3": "细胞增殖与毒性检测",
+    "productName": "MTT Cell Proliferation Assay Kit",
+    "brand": "Thermo Fisher",
+    "catNo": "V13154",
+    "citationNote": "经典MTT高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "细胞培养与细胞生物学试剂",
+    "level3": "细胞增殖与毒性检测",
+    "productName": "CellTiter-Glo Luminescent Cell Viability Assay",
+    "brand": "Promega",
+    "catNo": "G7570",
+    "citationNote": "发光法高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "细胞培养与细胞生物学试剂",
+    "level3": "细胞增殖与毒性检测",
+    "productName": "AlamarBlue Cell Viability Reagent",
+    "brand": "Thermo Fisher",
+    "catNo": "DAL1025",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "细胞培养与细胞生物学试剂",
+    "level3": "细胞增殖与毒性检测",
+    "productName": "LDH Cytotoxicity Assay Kit",
+    "brand": "Roche",
+    "catNo": "11644793001",
+    "citationNote": "毒性检测高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "细胞培养与细胞生物学试剂",
+    "level3": "细胞凋亡与周期检测",
+    "productName": "Annexin V-FITC Apoptosis Detection Kit",
+    "brand": "BD Pharmingen",
+    "catNo": "556547",
+    "citationNote": "凋亡检测金标准，超高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "细胞培养与细胞生物学试剂",
+    "level3": "细胞凋亡与周期检测",
+    "productName": "Annexin V-APC/7-AAD Apoptosis Kit",
+    "brand": "BioLegend",
+    "catNo": "640932",
+    "citationNote": "流式凋亡高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "细胞培养与细胞生物学试剂",
+    "level3": "细胞凋亡与周期检测",
+    "productName": "Caspase-3 Activity Assay Kit",
+    "brand": "Roche",
+    "catNo": "11680865001",
+    "citationNote": "Caspase检测高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "细胞培养与细胞生物学试剂",
+    "level3": "细胞凋亡与周期检测",
+    "productName": "Propidium Iodide (PI)/RNase Staining Buffer",
+    "brand": "BD Pharmingen",
+    "catNo": "550825",
+    "citationNote": "细胞周期高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "细胞培养与细胞生物学试剂",
+    "level3": "细胞凋亡与周期检测",
+    "productName": "TUNEL Apoptosis Detection Kit",
+    "brand": "Roche",
+    "catNo": "11684795910",
+    "citationNote": "TUNEL高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "细胞培养与细胞生物学试剂",
+    "level3": "干细胞与类器官培养",
+    "productName": "mTeSR1 Stem Cell Medium",
+    "brand": "StemCell",
+    "catNo": "85850",
+    "citationNote": "人iPSC/ESC培养金标准，超高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "细胞培养与细胞生物学试剂",
+    "level3": "干细胞与类器官培养",
+    "productName": "Matrigel Basement Membrane Matrix",
+    "brand": "Corning",
+    "catNo": "354234",
+    "citationNote": "干细胞基质金标准，超高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "细胞培养与细胞生物学试剂",
+    "level3": "干细胞与类器官培养",
+    "productName": "Essential 8 Flex Medium",
+    "brand": "Gibco",
+    "catNo": "A2858501",
+    "citationNote": "无饲养层培养高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "细胞培养与细胞生物学试剂",
+    "level3": "干细胞与类器官培养",
+    "productName": "IntestiCult Organoid Growth Medium",
+    "brand": "StemCell",
+    "catNo": "06010",
+    "citationNote": "类器官培养高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "细胞培养与细胞生物学试剂",
+    "level3": "干细胞与类器官培养",
+    "productName": "Recombinant Human LIF",
+    "brand": "PeproTech",
+    "catNo": "300-05",
+    "citationNote": "小鼠干细胞高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "蛋白质与生物化学试剂",
+    "level3": "蛋白提取与裂解试剂",
+    "productName": "RIPA Lysis and Extraction Buffer",
+    "brand": "Thermo Fisher",
+    "catNo": "89900",
+    "citationNote": "蛋白裂解金标准，超高引用",
+    "sourceNote": "已查证"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "蛋白质与生物化学试剂",
+    "level3": "蛋白提取与裂解试剂",
+    "productName": "M-PER Mammalian Protein Extraction Reagent",
+    "brand": "Thermo Fisher",
+    "catNo": "78501",
+    "citationNote": "哺乳动物蛋白提取高引用",
+    "sourceNote": "已查证"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "蛋白质与生物化学试剂",
+    "level3": "蛋白提取与裂解试剂",
+    "productName": "RIPA Buffer (10X)",
+    "brand": "Sigma-Aldrich",
+    "catNo": "R0278",
+    "citationNote": "高引用裂解液",
+    "sourceNote": "已查证"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "蛋白质与生物化学试剂",
+    "level3": "蛋白提取与裂解试剂",
+    "productName": "NP-40 Cell Lysis Buffer",
+    "brand": "Thermo Fisher",
+    "catNo": "FNN0021",
+    "citationNote": "非变性裂解高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "蛋白质与生物化学试剂",
+    "level3": "蛋白提取与裂解试剂",
+    "productName": "Protease Inhibitor Cocktail (100X)",
+    "brand": "Roche",
+    "catNo": "11697498001",
+    "citationNote": "蛋白酶抑制剂高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "蛋白质与生物化学试剂",
+    "level3": "蛋白定量试剂",
+    "productName": "Pierce BCA Protein Assay Kit",
+    "brand": "Thermo Fisher",
+    "catNo": "23225",
+    "citationNote": "蛋白定量金标准，超高引用",
+    "sourceNote": "已查证"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "蛋白质与生物化学试剂",
+    "level3": "蛋白定量试剂",
+    "productName": "Bradford Protein Assay Kit",
+    "brand": "Bio-Rad",
+    "catNo": "5000006",
+    "citationNote": "经典Bradford高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "蛋白质与生物化学试剂",
+    "level3": "蛋白定量试剂",
+    "productName": "Pierce 660nm Protein Assay Reagent",
+    "brand": "Thermo Fisher",
+    "catNo": "22660",
+    "citationNote": "高引用定量试剂",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "蛋白质与生物化学试剂",
+    "level3": "蛋白定量试剂",
+    "productName": "DC Protein Assay Kit",
+    "brand": "Bio-Rad",
+    "catNo": "5000116",
+    "citationNote": "去污剂兼容高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "蛋白质与生物化学试剂",
+    "level3": "蛋白定量试剂",
+    "productName": "Qubit Protein Assay Kit",
+    "brand": "Thermo Fisher",
+    "catNo": "Q33212",
+    "citationNote": "荧光定量高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "蛋白质与生物化学试剂",
+    "level3": "蛋白电泳试剂",
+    "productName": "Mini-PROTEAN TGX Precast Gels",
+    "brand": "Bio-Rad",
+    "catNo": "4561096",
+    "citationNote": "SDS-PAGE胶高引用",
+    "sourceNote": "已查证"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "蛋白质与生物化学试剂",
+    "level3": "蛋白电泳试剂",
+    "productName": "NuPAGE Bis-Tris Precast Gels",
+    "brand": "Invitrogen",
+    "catNo": "NP0321BOX",
+    "citationNote": "中性pH胶高引用",
+    "sourceNote": "已查证"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "蛋白质与生物化学试剂",
+    "level3": "蛋白电泳试剂",
+    "productName": "Laemmli Sample Buffer (4X)",
+    "brand": "Bio-Rad",
+    "catNo": "1610747",
+    "citationNote": "上样缓冲液高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "蛋白质与生物化学试剂",
+    "level3": "蛋白电泳试剂",
+    "productName": "SDS-PAGE Running Buffer (10X)",
+    "brand": "Bio-Rad",
+    "catNo": "1610772",
+    "citationNote": "电泳缓冲液高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "蛋白质与生物化学试剂",
+    "level3": "蛋白电泳试剂",
+    "productName": "Precision Plus Protein Dual Color Standards",
+    "brand": "Bio-Rad",
+    "catNo": "1610374",
+    "citationNote": "蛋白Marker高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "蛋白质与生物化学试剂",
+    "level3": "蛋白转膜与封闭试剂",
+    "productName": "Trans-Blot Turbo Transfer System",
+    "brand": "Bio-Rad",
+    "catNo": "1704150",
+    "citationNote": "快速转膜高引用",
+    "sourceNote": "已查证"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "蛋白质与生物化学试剂",
+    "level3": "蛋白转膜与封闭试剂",
+    "productName": "iBlot 2 Gel Transfer Device",
+    "brand": "Invitrogen",
+    "catNo": "IB21001",
+    "citationNote": "干式转膜高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "蛋白质与生物化学试剂",
+    "level3": "蛋白转膜与封闭试剂",
+    "productName": "PVDF Transfer Membrane (0.45μm)",
+    "brand": "Millipore",
+    "catNo": "IPVH00010",
+    "citationNote": "转印膜金标准，超高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "蛋白质与生物化学试剂",
+    "level3": "蛋白转膜与封闭试剂",
+    "productName": "Nitrocellulose Membrane (0.45μm)",
+    "brand": "Bio-Rad",
+    "catNo": "1620115",
+    "citationNote": "硝酸纤维素膜高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "蛋白质与生物化学试剂",
+    "level3": "蛋白转膜与封闭试剂",
+    "productName": "BSA (Fatty Acid Free)",
+    "brand": "Sigma-Aldrich",
+    "catNo": "A7030",
+    "citationNote": "封闭剂高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "蛋白质与生物化学试剂",
+    "level3": "酶与辅酶",
+    "productName": "Horseradish Peroxidase (HRP)",
+    "brand": "Sigma-Aldrich",
+    "catNo": "P8375",
+    "citationNote": "ELISA/WB金标准，超高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "蛋白质与生物化学试剂",
+    "level3": "酶与辅酶",
+    "productName": "Alkaline Phosphatase (AP)",
+    "brand": "Sigma-Aldrich",
+    "catNo": "P5931",
+    "citationNote": "高引用酶",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "蛋白质与生物化学试剂",
+    "level3": "酶与辅酶",
+    "productName": "Lysozyme from Chicken Egg White",
+    "brand": "Sigma-Aldrich",
+    "catNo": "L6876",
+    "citationNote": "细菌裂解高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "蛋白质与生物化学试剂",
+    "level3": "酶与辅酶",
+    "productName": "DNase I (RNase-Free)",
+    "brand": "Thermo Fisher",
+    "catNo": "EN0521",
+    "citationNote": "DNA消化高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "蛋白质与生物化学试剂",
+    "level3": "酶与辅酶",
+    "productName": "RNase A",
+    "brand": "QIAGEN",
+    "catNo": "19101",
+    "citationNote": "RNA消化高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "蛋白质与生物化学试剂",
+    "level3": "生化试剂与小分子",
+    "productName": "DMSO (Molecular Biology Grade)",
+    "brand": "Sigma-Aldrich",
+    "catNo": "D8418",
+    "citationNote": "溶剂金标准，超高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "蛋白质与生物化学试剂",
+    "level3": "生化试剂与小分子",
+    "productName": "EGTA (Cell Culture Grade)",
+    "brand": "Sigma-Aldrich",
+    "catNo": "E4378",
+    "citationNote": "钙螯合剂高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "蛋白质与生物化学试剂",
+    "level3": "生化试剂与小分子",
+    "productName": "EDTA (0.5M, pH 8.0)",
+    "brand": "Thermo Fisher",
+    "catNo": "15575020",
+    "citationNote": "螯合剂金标准，超高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "蛋白质与生物化学试剂",
+    "level3": "生化试剂与小分子",
+    "productName": "DTT (1M Solution)",
+    "brand": "Thermo Fisher",
+    "catNo": "R0861",
+    "citationNote": "还原剂高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "蛋白质与生物化学试剂",
+    "level3": "生化试剂与小分子",
+    "productName": "β-Mercaptoethanol",
+    "brand": "Sigma-Aldrich",
+    "catNo": "M6250",
+    "citationNote": "还原剂高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "蛋白质与生物化学试剂",
+    "level3": "蛋白结晶与结构生物学",
+    "productName": "Crystal Screen Crystallization Reagent Kit",
+    "brand": "Hampton Research",
+    "catNo": "HR2-110",
+    "citationNote": "蛋白结晶筛选金标准，高引用",
+    "sourceNote": "已查证"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "蛋白质与生物化学试剂",
+    "level3": "蛋白结晶与结构生物学",
+    "productName": "Index Crystallization Reagent Kit",
+    "brand": "Hampton Research",
+    "catNo": "HR2-144",
+    "citationNote": "高引用结晶筛选",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "蛋白质与生物化学试剂",
+    "level3": "蛋白结晶与结构生物学",
+    "productName": "PEG/Ion Crystallization Reagent Kit",
+    "brand": "Hampton Research",
+    "catNo": "HR2-126",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "蛋白质与生物化学试剂",
+    "level3": "蛋白结晶与结构生物学",
+    "productName": "JCSG-plus Crystallization Screen",
+    "brand": "Molecular Dimensions",
+    "catNo": "MD1-40",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "蛋白质与生物化学试剂",
+    "level3": "蛋白结晶与结构生物学",
+    "productName": "PACT premier Crystallization Screen",
+    "brand": "Molecular Dimensions",
+    "catNo": "MD1-38",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "抗体与免疫学试剂",
+    "level3": "一抗",
+    "productName": "Anti-beta Actin antibody [mAbcam 8226]",
+    "brand": "Abcam",
+    "catNo": "ab8226",
+    "citationNote": "3,360+篇引用",
+    "sourceNote": "已查证"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "抗体与免疫学试剂",
+    "level3": "一抗",
+    "productName": "Anti-beta Actin antibody",
+    "brand": "Abcam",
+    "catNo": "ab8227",
+    "citationNote": "5,332篇引用",
+    "sourceNote": "已查证"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "抗体与免疫学试剂",
+    "level3": "一抗",
+    "productName": "Anti-GAPDH antibody [6C5]",
+    "brand": "Abcam",
+    "catNo": "ab9485",
+    "citationNote": "3,283+篇引用",
+    "sourceNote": "已查证"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "抗体与免疫学试剂",
+    "level3": "一抗",
+    "productName": "Anti-GAPDH (G-9)",
+    "brand": "Santa Cruz",
+    "catNo": "sc-365062",
+    "citationNote": "1,638篇引用",
+    "sourceNote": "已查证"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "抗体与免疫学试剂",
+    "level3": "一抗",
+    "productName": "Anti-GAPDH antibody [EPR6256]",
+    "brand": "Abcam",
+    "catNo": "ab128915",
+    "citationNote": "270+篇引用",
+    "sourceNote": "已查证"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "抗体与免疫学试剂",
+    "level3": "二抗",
+    "productName": "Goat Anti-Rabbit IgG H&L (HRP)",
+    "brand": "Abcam",
+    "catNo": "ab6721",
+    "citationNote": "WB二抗金标准，超高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "抗体与免疫学试剂",
+    "level3": "二抗",
+    "productName": "Goat Anti-Mouse IgG H&L (HRP)",
+    "brand": "Abcam",
+    "catNo": "ab6789",
+    "citationNote": "超高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "抗体与免疫学试剂",
+    "level3": "二抗",
+    "productName": "Goat Anti-Rabbit IgG (H+L) Cross-Adsorbed Secondary Antibody, Alexa Fluor 488",
+    "brand": "Thermo Fisher",
+    "catNo": "A-11008",
+    "citationNote": "IF/流式高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "抗体与免疫学试剂",
+    "level3": "二抗",
+    "productName": "Goat Anti-Mouse IgG (H+L), Alexa Fluor 594",
+    "brand": "Thermo Fisher",
+    "catNo": "A-11005",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "抗体与免疫学试剂",
+    "level3": "二抗",
+    "productName": "Rabbit Anti-Goat IgG H&L (HRP)",
+    "brand": "Abcam",
+    "catNo": "ab6741",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "抗体与免疫学试剂",
+    "level3": "ELISA试剂盒",
+    "productName": "Human VEGF Quantikine ELISA Kit",
+    "brand": "R&D Systems",
+    "catNo": "DVE00",
+    "citationNote": "R&D Systems是引用率最高的ELISA厂商，VEGF为最高引用之一",
+    "sourceNote": "已查证"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "抗体与免疫学试剂",
+    "level3": "ELISA试剂盒",
+    "productName": "Human IL-6 Quantikine ELISA Kit",
+    "brand": "R&D Systems",
+    "catNo": "D6050",
+    "citationNote": "高引用",
+    "sourceNote": "已查证"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "抗体与免疫学试剂",
+    "level3": "ELISA试剂盒",
+    "productName": "Mouse TNF-alpha Quantikine ELISA Kit",
+    "brand": "R&D Systems",
+    "catNo": "MTA00B",
+    "citationNote": "高引用",
+    "sourceNote": "已查证"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "抗体与免疫学试剂",
+    "level3": "ELISA试剂盒",
+    "productName": "Mouse IL-6 DuoSet ELISA",
+    "brand": "R&D Systems",
+    "catNo": "DY406",
+    "citationNote": "高引用",
+    "sourceNote": "已查证"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "抗体与免疫学试剂",
+    "level3": "ELISA试剂盒",
+    "productName": "LEGEND MAX Human IL-6 ELISA Kit",
+    "brand": "BioLegend",
+    "catNo": "430507",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "抗体与免疫学试剂",
+    "level3": "免疫组化（IHC）试剂",
+    "productName": "UltraVision Quanto Detection System HRP DAB",
+    "brand": "Thermo Fisher",
+    "catNo": "TL-125-QHD",
+    "citationNote": "IHC检测金标准，高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "抗体与免疫学试剂",
+    "level3": "免疫组化（IHC）试剂",
+    "productName": "VECTASTAIN Elite ABC HRP Kit",
+    "brand": "Vector Labs",
+    "catNo": "PK-6100",
+    "citationNote": "ABC法高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "抗体与免疫学试剂",
+    "level3": "免疫组化（IHC）试剂",
+    "productName": "DAB Substrate Kit",
+    "brand": "Vector Labs",
+    "catNo": "SK-4100",
+    "citationNote": "DAB显色金标准，超高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "抗体与免疫学试剂",
+    "level3": "免疫组化（IHC）试剂",
+    "productName": "Antigen Unmasking Solution (Citrate Based)",
+    "brand": "Vector Labs",
+    "catNo": "H-3300",
+    "citationNote": "抗原修复高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "抗体与免疫学试剂",
+    "level3": "免疫组化（IHC）试剂",
+    "productName": "Protein Block Serum-Free",
+    "brand": "Dako/Agilent",
+    "catNo": "X0909",
+    "citationNote": "封闭剂高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "抗体与免疫学试剂",
+    "level3": "免疫荧光（IF）试剂",
+    "productName": "ProLong Gold Antifade Mountant with DAPI",
+    "brand": "Thermo Fisher",
+    "catNo": "P36935",
+    "citationNote": "封片剂金标准，超高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "抗体与免疫学试剂",
+    "level3": "免疫荧光（IF）试剂",
+    "productName": "SlowFade Diamond Antifade Mountant",
+    "brand": "Thermo Fisher",
+    "catNo": "S36967",
+    "citationNote": "抗淬灭高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "抗体与免疫学试剂",
+    "level3": "免疫荧光（IF）试剂",
+    "productName": "VECTASHIELD Antifade Mounting Medium",
+    "brand": "Vector Labs",
+    "catNo": "H-1000",
+    "citationNote": "高引用封片剂",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "抗体与免疫学试剂",
+    "level3": "免疫荧光（IF）试剂",
+    "productName": "Normal Goat Serum",
+    "brand": "Sigma-Aldrich",
+    "catNo": "G9023",
+    "citationNote": "封闭剂高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "抗体与免疫学试剂",
+    "level3": "免疫荧光（IF）试剂",
+    "productName": "Triton X-100",
+    "brand": "Sigma-Aldrich",
+    "catNo": "T8787",
+    "citationNote": "通透剂金标准，超高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "抗体与免疫学试剂",
+    "level3": "流式细胞术试剂",
+    "productName": "Anti-Human CD3 (OKT3) Brilliant Violet 510",
+    "brand": "BioLegend",
+    "catNo": "317443",
+    "citationNote": "T细胞标记高引用",
+    "sourceNote": "已查证"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "抗体与免疫学试剂",
+    "level3": "流式细胞术试剂",
+    "productName": "Anti-Human CD4 (OKT4) Brilliant Violet 510",
+    "brand": "BioLegend",
+    "catNo": "317443",
+    "citationNote": "CD4高引用",
+    "sourceNote": "已查证"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "抗体与免疫学试剂",
+    "level3": "流式细胞术试剂",
+    "productName": "Anti-Mouse CD3 (17A2) PerCP/Cyanine5.5",
+    "brand": "BioLegend",
+    "catNo": "100218",
+    "citationNote": "小鼠CD3高引用",
+    "sourceNote": "已查证"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "抗体与免疫学试剂",
+    "level3": "流式细胞术试剂",
+    "productName": "Anti-Human CD8 (SK1) APC",
+    "brand": "BD Pharmingen",
+    "catNo": "555369",
+    "citationNote": "CD8高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "抗体与免疫学试剂",
+    "level3": "流式细胞术试剂",
+    "productName": "7-AAD Viability Staining Solution",
+    "brand": "BioLegend",
+    "catNo": "420404",
+    "citationNote": "死活染料高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "细胞因子与生长因子",
+    "level3": "重组细胞因子",
+    "productName": "Recombinant Human IL-2",
+    "brand": "PeproTech",
+    "catNo": "200-02",
+    "citationNote": "T细胞培养金标准，超高引用",
+    "sourceNote": "已查证"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "细胞因子与生长因子",
+    "level3": "重组细胞因子",
+    "productName": "Recombinant Human TNF-alpha",
+    "brand": "R&D Systems",
+    "catNo": "210-TA",
+    "citationNote": "炎症研究高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "细胞因子与生长因子",
+    "level3": "重组细胞因子",
+    "productName": "Recombinant Human IL-6",
+    "brand": "PeproTech",
+    "catNo": "200-06",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "细胞因子与生长因子",
+    "level3": "重组细胞因子",
+    "productName": "Recombinant Human IFN-gamma",
+    "brand": "PeproTech",
+    "catNo": "300-02",
+    "citationNote": "免疫研究高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "细胞因子与生长因子",
+    "level3": "重组细胞因子",
+    "productName": "Recombinant Human IL-4",
+    "brand": "PeproTech",
+    "catNo": "200-04",
+    "citationNote": "Th2分化高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "细胞因子与生长因子",
+    "level3": "生长因子",
+    "productName": "Recombinant Human EGF",
+    "brand": "PeproTech",
+    "catNo": "AF-100-15",
+    "citationNote": "表皮生长因子金标准，超高引用",
+    "sourceNote": "已查证"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "细胞因子与生长因子",
+    "level3": "生长因子",
+    "productName": "Recombinant Human bFGF (FGF-2)",
+    "brand": "PeproTech",
+    "catNo": "100-18B",
+    "citationNote": "成纤维细胞生长因子高引用",
+    "sourceNote": "已查证"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "细胞因子与生长因子",
+    "level3": "生长因子",
+    "productName": "Recombinant Human TGF-beta 1",
+    "brand": "PeproTech",
+    "catNo": "100-21",
+    "citationNote": "转化生长因子高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "细胞因子与生长因子",
+    "level3": "生长因子",
+    "productName": "Recombinant Human VEGF165",
+    "brand": "PeproTech",
+    "catNo": "100-20",
+    "citationNote": "血管内皮生长因子高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "细胞因子与生长因子",
+    "level3": "生长因子",
+    "productName": "Recombinant Human PDGF-BB",
+    "brand": "PeproTech",
+    "catNo": "100-14B",
+    "citationNote": "血小板衍生生长因子高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "细胞因子与生长因子",
+    "level3": "趋化因子",
+    "productName": "Recombinant Human CXCL12/SDF-1 alpha",
+    "brand": "PeproTech",
+    "catNo": "300-28A",
+    "citationNote": "趋化因子高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "细胞因子与生长因子",
+    "level3": "趋化因子",
+    "productName": "Recombinant Human CCL2/MCP-1",
+    "brand": "PeproTech",
+    "catNo": "300-04",
+    "citationNote": "单核细胞趋化高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "细胞因子与生长因子",
+    "level3": "趋化因子",
+    "productName": "Recombinant Human CXCL8/IL-8",
+    "brand": "PeproTech",
+    "catNo": "200-08M",
+    "citationNote": "中性粒细胞趋化高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "细胞因子与生长因子",
+    "level3": "趋化因子",
+    "productName": "Recombinant Human CCL5/RANTES",
+    "brand": "PeproTech",
+    "catNo": "300-06",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "细胞因子与生长因子",
+    "level3": "趋化因子",
+    "productName": "Recombinant Mouse CXCL1/KC",
+    "brand": "PeproTech",
+    "catNo": "250-11",
+    "citationNote": "小鼠趋化高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "细胞因子与生长因子",
+    "level3": "激素与调节肽",
+    "productName": "Recombinant Human Insulin",
+    "brand": "Sigma-Aldrich",
+    "catNo": "I9278",
+    "citationNote": "细胞培养添加金标准，超高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "细胞因子与生长因子",
+    "level3": "激素与调节肽",
+    "productName": "Recombinant Human Transferrin",
+    "brand": "Sigma-Aldrich",
+    "catNo": "T8158",
+    "citationNote": "无血清培养高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "细胞因子与生长因子",
+    "level3": "激素与调节肽",
+    "productName": "Hydrocortisone",
+    "brand": "Sigma-Aldrich",
+    "catNo": "H0888",
+    "citationNote": "类固醇激素高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "细胞因子与生长因子",
+    "level3": "激素与调节肽",
+    "productName": "Progesterone",
+    "brand": "Sigma-Aldrich",
+    "catNo": "P8783",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "细胞因子与生长因子",
+    "level3": "激素与调节肽",
+    "productName": "Sodium Selenite",
+    "brand": "Sigma-Aldrich",
+    "catNo": "S5261",
+    "citationNote": "无血清添加高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "微生物培养与鉴定试剂",
+    "level3": "细菌培养基",
+    "productName": "LB Broth (Miller)",
+    "brand": "Sigma-Aldrich",
+    "catNo": "L3147",
+    "citationNote": "大肠杆菌培养金标准，超高引用",
+    "sourceNote": "已查证"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "微生物培养与鉴定试剂",
+    "level3": "细菌培养基",
+    "productName": "LB Agar (Miller)",
+    "brand": "Sigma-Aldrich",
+    "catNo": "L2897",
+    "citationNote": "LB平板高引用",
+    "sourceNote": "已查证"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "微生物培养与鉴定试剂",
+    "level3": "细菌培养基",
+    "productName": "LB Broth (Lennox)",
+    "brand": "Sigma-Aldrich",
+    "catNo": "L9234",
+    "citationNote": "低盐LB高引用",
+    "sourceNote": "已查证"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "微生物培养与鉴定试剂",
+    "level3": "细菌培养基",
+    "productName": "Tryptic Soy Broth (TSB)",
+    "brand": "BD Difco",
+    "catNo": "211825",
+    "citationNote": "通用细菌培养高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "微生物培养与鉴定试剂",
+    "level3": "细菌培养基",
+    "productName": "Müller-Hinton Broth",
+    "brand": "BD Difco",
+    "catNo": "275730",
+    "citationNote": "药敏试验高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "微生物培养与鉴定试剂",
+    "level3": "真菌与酵母培养基",
+    "productName": "YPD Broth",
+    "brand": "BD Difco",
+    "catNo": "242810",
+    "citationNote": "酵母培养金标准，高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "微生物培养与鉴定试剂",
+    "level3": "真菌与酵母培养基",
+    "productName": "YPD Agar",
+    "brand": "BD Difco",
+    "catNo": "242820",
+    "citationNote": "酵母平板高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "微生物培养与鉴定试剂",
+    "level3": "真菌与酵母培养基",
+    "productName": "Sabouraud Dextrose Broth",
+    "brand": "BD Difco",
+    "catNo": "238230",
+    "citationNote": "真菌培养高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "微生物培养与鉴定试剂",
+    "level3": "真菌与酵母培养基",
+    "productName": "Potato Dextrose Agar (PDA)",
+    "brand": "BD Difco",
+    "catNo": "213400",
+    "citationNote": "真菌分离高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "微生物培养与鉴定试剂",
+    "level3": "真菌与酵母培养基",
+    "productName": "SC-Ura Medium",
+    "brand": "Sunrise Science",
+    "catNo": "1005-010",
+    "citationNote": "酵母筛选高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "微生物培养与鉴定试剂",
+    "level3": "细胞培养用支原体检测",
+    "productName": "MycoAlert Mycoplasma Detection Kit",
+    "brand": "Lonza",
+    "catNo": "LT07-118",
+    "citationNote": "支原体检测金标准，高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "微生物培养与鉴定试剂",
+    "level3": "细胞培养用支原体检测",
+    "productName": "PlasmoTest Mycoplasma Detection Kit",
+    "brand": "InvivoGen",
+    "catNo": "rep-pt1",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "微生物培养与鉴定试剂",
+    "level3": "细胞培养用支原体检测",
+    "productName": "Mycoplasma Detection Kit (PCR)",
+    "brand": "Roche",
+    "catNo": "11296744001",
+    "citationNote": "PCR法检测高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "微生物培养与鉴定试剂",
+    "level3": "细胞培养用支原体检测",
+    "productName": "LookOut Mycoplasma PCR Detection Kit",
+    "brand": "Sigma-Aldrich",
+    "catNo": "MP0035",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "微生物培养与鉴定试剂",
+    "level3": "细胞培养用支原体检测",
+    "productName": "MycoFluor Mycoplasma Detection Kit",
+    "brand": "Thermo Fisher",
+    "catNo": "M7006",
+    "citationNote": "荧光法高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "微生物培养与鉴定试剂",
+    "level3": "微生物鉴定试剂",
+    "productName": "API 20E Identification System",
+    "brand": "bioMérieux",
+    "catNo": "20100",
+    "citationNote": "肠杆菌科鉴定金标准，高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "微生物培养与鉴定试剂",
+    "level3": "微生物鉴定试剂",
+    "productName": "API 20NE Identification System",
+    "brand": "bioMérieux",
+    "catNo": "20050",
+    "citationNote": "非发酵菌鉴定高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "微生物培养与鉴定试剂",
+    "level3": "微生物鉴定试剂",
+    "productName": "VITEK 2 GN ID Card",
+    "brand": "bioMérieux",
+    "catNo": "21341",
+    "citationNote": "自动化鉴定高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "微生物培养与鉴定试剂",
+    "level3": "微生物鉴定试剂",
+    "productName": "BBL Crystal Enteric/Nonfermenter ID Kit",
+    "brand": "BD",
+    "catNo": "245010",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "微生物培养与鉴定试剂",
+    "level3": "微生物鉴定试剂",
+    "productName": "RapID ONE System",
+    "brand": "Remel/Thermo Fisher",
+    "catNo": "R8301002",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "微生物培养与鉴定试剂",
+    "level3": "抗生素与抗真菌剂（微生物用）",
+    "productName": "Ampicillin Sodium Salt",
+    "brand": "Sigma-Aldrich",
+    "catNo": "A9518",
+    "citationNote": "细菌筛选金标准，超高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "微生物培养与鉴定试剂",
+    "level3": "抗生素与抗真菌剂（微生物用）",
+    "productName": "Kanamycin Sulfate",
+    "brand": "Sigma-Aldrich",
+    "catNo": "K4000",
+    "citationNote": "高引用抗生素",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "微生物培养与鉴定试剂",
+    "level3": "抗生素与抗真菌剂（微生物用）",
+    "productName": "Chloramphenicol",
+    "brand": "Sigma-Aldrich",
+    "catNo": "C0378",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "微生物培养与鉴定试剂",
+    "level3": "抗生素与抗真菌剂（微生物用）",
+    "productName": "Streptomycin Sulfate",
+    "brand": "Sigma-Aldrich",
+    "catNo": "S9137",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "微生物培养与鉴定试剂",
+    "level3": "抗生素与抗真菌剂（微生物用）",
+    "productName": "Amphotericin B",
+    "brand": "Sigma-Aldrich",
+    "catNo": "A2942",
+    "citationNote": "抗真菌金标准，高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "染色与显色试剂",
+    "level3": "核酸染色试剂",
+    "productName": "DAPI (4',6-diamidino-2-phenylindole)",
+    "brand": "Thermo Fisher",
+    "catNo": "D1306",
+    "citationNote": "细胞核染色金标准，超高引用",
+    "sourceNote": "已查证"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "染色与显色试剂",
+    "level3": "核酸染色试剂",
+    "productName": "Hoechst 33342",
+    "brand": "Thermo Fisher",
+    "catNo": "H3570",
+    "citationNote": "活细胞DNA染色高引用",
+    "sourceNote": "已查证"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "染色与显色试剂",
+    "level3": "核酸染色试剂",
+    "productName": "Hoechst 33258",
+    "brand": "Sigma-Aldrich",
+    "catNo": "94403",
+    "citationNote": "高引用",
+    "sourceNote": "已查证"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "染色与显色试剂",
+    "level3": "核酸染色试剂",
+    "productName": "SYBR Green I Nucleic Acid Gel Stain",
+    "brand": "Thermo Fisher",
+    "catNo": "S7563",
+    "citationNote": "qPCR/凝胶染色高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "染色与显色试剂",
+    "level3": "核酸染色试剂",
+    "productName": "Ethidium Bromide Solution",
+    "brand": "Bio-Rad",
+    "catNo": "1610433",
+    "citationNote": "经典核酸染色，超高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "染色与显色试剂",
+    "level3": "蛋白染色试剂",
+    "productName": "Coomassie Brilliant Blue R-250",
+    "brand": "Bio-Rad",
+    "catNo": "1610400",
+    "citationNote": "蛋白凝胶染色金标准，超高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "染色与显色试剂",
+    "level3": "蛋白染色试剂",
+    "productName": "Pierce Silver Stain Kit",
+    "brand": "Thermo Fisher",
+    "catNo": "24612",
+    "citationNote": "银染高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "染色与显色试剂",
+    "level3": "蛋白染色试剂",
+    "productName": "SYPRO Ruby Protein Gel Stain",
+    "brand": "Thermo Fisher",
+    "catNo": "S12000",
+    "citationNote": "荧光蛋白染色高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "染色与显色试剂",
+    "level3": "蛋白染色试剂",
+    "productName": "Ponceau S Solution",
+    "brand": "Sigma-Aldrich",
+    "catNo": "P7170",
+    "citationNote": "转膜后染色高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "染色与显色试剂",
+    "level3": "蛋白染色试剂",
+    "productName": "InstantBlue Protein Stain",
+    "brand": "Abcam",
+    "catNo": "ab119211",
+    "citationNote": "快速染色高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "染色与显色试剂",
+    "level3": "细胞染色试剂",
+    "productName": "Trypan Blue Solution (0.4%)",
+    "brand": "Thermo Fisher",
+    "catNo": "15250061",
+    "citationNote": "细胞死活计数金标准，超高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "染色与显色试剂",
+    "level3": "细胞染色试剂",
+    "productName": "Calcein-AM",
+    "brand": "Thermo Fisher",
+    "catNo": "C1430",
+    "citationNote": "活细胞染色高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "染色与显色试剂",
+    "level3": "细胞染色试剂",
+    "productName": "Propidium Iodide (PI)",
+    "brand": "Thermo Fisher",
+    "catNo": "P3566",
+    "citationNote": "死细胞/周期染色高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "染色与显色试剂",
+    "level3": "细胞染色试剂",
+    "productName": "Rhodamine-Phalloidin",
+    "brand": "Thermo Fisher",
+    "catNo": "R415",
+    "citationNote": "细胞骨架染色高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "染色与显色试剂",
+    "level3": "细胞染色试剂",
+    "productName": "MitoTracker Red CMXRos",
+    "brand": "Thermo Fisher",
+    "catNo": "M7512",
+    "citationNote": "线粒体染色高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "染色与显色试剂",
+    "level3": "免疫显色试剂",
+    "productName": "DAB Substrate Kit (HRP)",
+    "brand": "Vector Labs",
+    "catNo": "SK-4100",
+    "citationNote": "IHC显色金标准，超高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "染色与显色试剂",
+    "level3": "免疫显色试剂",
+    "productName": "AEC Substrate Kit",
+    "brand": "Vector Labs",
+    "catNo": "SK-4200",
+    "citationNote": "红色显色高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "染色与显色试剂",
+    "level3": "免疫显色试剂",
+    "productName": "BCIP/NBT Substrate Kit (AP)",
+    "brand": "Vector Labs",
+    "catNo": "SK-5400",
+    "citationNote": "AP显色高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "染色与显色试剂",
+    "level3": "免疫显色试剂",
+    "productName": "TSA Plus Cyanine 3 Kit",
+    "brand": "PerkinElmer",
+    "catNo": "NEL744001KT",
+    "citationNote": "信号放大高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "染色与显色试剂",
+    "level3": "免疫显色试剂",
+    "productName": "TrueBlue Peroxidase Substrate",
+    "brand": "KPL",
+    "catNo": "5510-0030",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "染色与显色试剂",
+    "level3": "组织病理染色试剂",
+    "productName": "Hematoxylin and Eosin (H&E) Stain Kit",
+    "brand": "Sigma-Aldrich",
+    "catNo": "HSK-1",
+    "citationNote": "病理染色金标准，超高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "染色与显色试剂",
+    "level3": "组织病理染色试剂",
+    "productName": "Harris Hematoxylin Solution",
+    "brand": "Sigma-Aldrich",
+    "catNo": "HHS16",
+    "citationNote": "苏木素高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "染色与显色试剂",
+    "level3": "组织病理染色试剂",
+    "productName": "Eosin Y Solution (Alcoholic)",
+    "brand": "Sigma-Aldrich",
+    "catNo": "HT110132",
+    "citationNote": "伊红高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "染色与显色试剂",
+    "level3": "组织病理染色试剂",
+    "productName": "Masson's Trichrome Stain Kit",
+    "brand": "Sigma-Aldrich",
+    "catNo": "HT15",
+    "citationNote": "胶原染色高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "染色与显色试剂",
+    "level3": "组织病理染色试剂",
+    "productName": "Periodic Acid-Schiff (PAS) Stain Kit",
+    "brand": "Sigma-Aldrich",
+    "catNo": "395B",
+    "citationNote": "糖原染色高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "缓冲液与常用溶液",
+    "level3": "分子生物学缓冲液",
+    "productName": "TE Buffer (10X, pH 8.0)",
+    "brand": "Thermo Fisher",
+    "catNo": "12090015",
+    "citationNote": "核酸保存金标准，超高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "缓冲液与常用溶液",
+    "level3": "分子生物学缓冲液",
+    "productName": "TAE Buffer (50X)",
+    "brand": "Thermo Fisher",
+    "catNo": "B49",
+    "citationNote": "核酸电泳高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "缓冲液与常用溶液",
+    "level3": "分子生物学缓冲液",
+    "productName": "TBE Buffer (10X)",
+    "brand": "Bio-Rad",
+    "catNo": "1610770",
+    "citationNote": "核酸电泳高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "缓冲液与常用溶液",
+    "level3": "分子生物学缓冲液",
+    "productName": "10X PBS (pH 7.4)",
+    "brand": "Thermo Fisher",
+    "catNo": "AM9625",
+    "citationNote": "通用缓冲液金标准，超高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "缓冲液与常用溶液",
+    "level3": "分子生物学缓冲液",
+    "productName": "Tris-HCl Buffer (1M, pH 8.0)",
+    "brand": "Thermo Fisher",
+    "catNo": "15568025",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "缓冲液与常用溶液",
+    "level3": "细胞培养缓冲液",
+    "productName": "DPBS (Dulbecco's PBS, 1X)",
+    "brand": "Gibco",
+    "catNo": "14190144",
+    "citationNote": "细胞洗涤金标准，超高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "缓冲液与常用溶液",
+    "level3": "细胞培养缓冲液",
+    "productName": "HBSS (Hanks' Balanced Salt Solution, 1X)",
+    "brand": "Gibco",
+    "catNo": "14025092",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "缓冲液与常用溶液",
+    "level3": "细胞培养缓冲液",
+    "productName": "PBS (10X, pH 7.4)",
+    "brand": "Gibco",
+    "catNo": "70011044",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "缓冲液与常用溶液",
+    "level3": "细胞培养缓冲液",
+    "productName": "HEPES Buffered Saline (1M)",
+    "brand": "Gibco",
+    "catNo": "15630080",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "缓冲液与常用溶液",
+    "level3": "细胞培养缓冲液",
+    "productName": "Sodium Bicarbonate Solution (7.5%)",
+    "brand": "Gibco",
+    "catNo": "25080094",
+    "citationNote": "培养基缓冲高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "缓冲液与常用溶液",
+    "level3": "蛋白实验缓冲液",
+    "productName": "TBS (Tris-Buffered Saline, 10X)",
+    "brand": "Bio-Rad",
+    "catNo": "1706435",
+    "citationNote": "WB洗涤金标准，超高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "缓冲液与常用溶液",
+    "level3": "蛋白实验缓冲液",
+    "productName": "TBST (TBS with Tween-20, 10X)",
+    "brand": "Bio-Rad",
+    "catNo": "1706435",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "缓冲液与常用溶液",
+    "level3": "蛋白实验缓冲液",
+    "productName": "PBST (PBS with Tween-20, 10X)",
+    "brand": "Sigma-Aldrich",
+    "catNo": "P7949",
+    "citationNote": "ELISA洗涤高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "缓冲液与常用溶液",
+    "level3": "蛋白实验缓冲液",
+    "productName": "RIPA Lysis Buffer (10X)",
+    "brand": "Millipore",
+    "catNo": "20-188",
+    "citationNote": "蛋白裂解高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "缓冲液与常用溶液",
+    "level3": "蛋白实验缓冲液",
+    "productName": "Non-Fat Dry Milk (Blotting Grade)",
+    "brand": "Bio-Rad",
+    "catNo": "1706404",
+    "citationNote": "封闭剂高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "缓冲液与常用溶液",
+    "level3": "免疫检测缓冲液",
+    "productName": "ELISA Coating Buffer (10X)",
+    "brand": "R&D Systems",
+    "catNo": "DY005",
+    "citationNote": "ELISA包被高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "缓冲液与常用溶液",
+    "level3": "免疫检测缓冲液",
+    "productName": "ELISA Wash Buffer (20X)",
+    "brand": "R&D Systems",
+    "catNo": "WA126",
+    "citationNote": "ELISA洗涤高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "缓冲液与常用溶液",
+    "level3": "免疫检测缓冲液",
+    "productName": "ELISA Blocking Buffer",
+    "brand": "R&D Systems",
+    "catNo": "DY011",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "缓冲液与常用溶液",
+    "level3": "免疫检测缓冲液",
+    "productName": "Streptavidin-HRP Conjugate",
+    "brand": "R&D Systems",
+    "catNo": "DY998",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "缓冲液与常用溶液",
+    "level3": "免疫检测缓冲液",
+    "productName": "TMB Substrate Solution",
+    "brand": "Thermo Fisher",
+    "catNo": "34028",
+    "citationNote": "ELISA显色金标准，超高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "缓冲液与常用溶液",
+    "level3": "常用盐溶液与化学试剂",
+    "productName": "Sodium Chloride (NaCl)",
+    "brand": "Sigma-Aldrich",
+    "catNo": "S7653",
+    "citationNote": "最常用盐，超高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "缓冲液与常用溶液",
+    "level3": "常用盐溶液与化学试剂",
+    "productName": "Potassium Chloride (KCl)",
+    "brand": "Sigma-Aldrich",
+    "catNo": "P9333",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "缓冲液与常用溶液",
+    "level3": "常用盐溶液与化学试剂",
+    "productName": "Calcium Chloride Dihydrate",
+    "brand": "Sigma-Aldrich",
+    "catNo": "C7902",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "缓冲液与常用溶液",
+    "level3": "常用盐溶液与化学试剂",
+    "productName": "Magnesium Chloride Hexahydrate",
+    "brand": "Sigma-Aldrich",
+    "catNo": "M9272",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "科研试剂",
+    "level2": "缓冲液与常用溶液",
+    "level3": "常用盐溶液与化学试剂",
+    "productName": "Sodium Hydroxide Solution (10N)",
+    "brand": "Sigma-Aldrich",
+    "catNo": "S5881",
+    "citationNote": "pH调节高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "通用实验室耗材",
+    "level3": "移液器吸头",
+    "productName": "ART Barrier Pipette Tips",
+    "brand": "Thermo Fisher",
+    "catNo": "2140",
+    "citationNote": "滤芯吸头金标准，高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "通用实验室耗材",
+    "level3": "移液器吸头",
+    "productName": "Eppendorf epTIPS Pipette Tips",
+    "brand": "Eppendorf",
+    "catNo": "0030 000.816",
+    "citationNote": "高引用吸头",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "通用实验室耗材",
+    "level3": "移液器吸头",
+    "productName": "TipOne Filter Tips",
+    "brand": "STARLAB",
+    "catNo": "S1180-3810",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "通用实验室耗材",
+    "level3": "移液器吸头",
+    "productName": "Axygen Universal Pipette Tips",
+    "brand": "Corning",
+    "catNo": "T-300",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "通用实验室耗材",
+    "level3": "移液器吸头",
+    "productName": "Rainin LTS Filter Tips",
+    "brand": "Mettler Toledo",
+    "catNo": "30389219",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "通用实验室耗材",
+    "level3": "离心管与PCR管",
+    "productName": "Eppendorf Safe-Lock Microcentrifuge Tubes (1.5mL)",
+    "brand": "Eppendorf",
+    "catNo": "0030 120.086",
+    "citationNote": "离心管金标准，超高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "通用实验室耗材",
+    "level3": "离心管与PCR管",
+    "productName": "Eppendorf DNA LoBind Tubes (1.5mL)",
+    "brand": "Eppendorf",
+    "catNo": "022431021",
+    "citationNote": "低吸附管高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "通用实验室耗材",
+    "level3": "离心管与PCR管",
+    "productName": "Corning Microcentrifuge Tubes (1.7mL)",
+    "brand": "Corning",
+    "catNo": "3621",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "通用实验室耗材",
+    "level3": "离心管与PCR管",
+    "productName": "Axygen PCR Tubes (0.2mL)",
+    "brand": "Corning",
+    "catNo": "PCR-02-C",
+    "citationNote": "PCR管高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "通用实验室耗材",
+    "level3": "离心管与PCR管",
+    "productName": "Eppendorf twin.tec PCR Plates (96-well)",
+    "brand": "Eppendorf",
+    "catNo": "0030 128.605",
+    "citationNote": "PCR板高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "通用实验室耗材",
+    "level3": "试管与样品管",
+    "productName": "Corning Polypropylene Culture Tubes (15mL)",
+    "brand": "Corning",
+    "catNo": "352095",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "通用实验室耗材",
+    "level3": "试管与样品管",
+    "productName": "Falcon Round-Bottom Polypropylene Tubes (14mL)",
+    "brand": "Corning",
+    "catNo": "352059",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "通用实验室耗材",
+    "level3": "试管与样品管",
+    "productName": "Eppendorf Conical Tubes (50mL)",
+    "brand": "Eppendorf",
+    "catNo": "0030 119.501",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "通用实验室耗材",
+    "level3": "试管与样品管",
+    "productName": "Nunc CryoTube Vials (1.8mL)",
+    "brand": "Thermo Fisher",
+    "catNo": "377267",
+    "citationNote": "样品管高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "通用实验室耗材",
+    "level3": "试管与样品管",
+    "productName": "Wheaton Glass Vials (2mL)",
+    "brand": "DWK Life Sciences",
+    "catNo": "224219-02",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "通用实验室耗材",
+    "level3": "量筒与容量瓶",
+    "productName": "Pyrex Graduated Cylinder (100mL)",
+    "brand": "Corning",
+    "catNo": "3024-100",
+    "citationNote": "量筒金标准，高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "通用实验室耗材",
+    "level3": "量筒与容量瓶",
+    "productName": "Pyrex Volumetric Flask (100mL)",
+    "brand": "Corning",
+    "catNo": "5640-100",
+    "citationNote": "容量瓶高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "通用实验室耗材",
+    "level3": "量筒与容量瓶",
+    "productName": "Brand PFA Graduated Cylinder",
+    "brand": "BrandTech",
+    "catNo": "34728",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "通用实验室耗材",
+    "level3": "量筒与容量瓶",
+    "productName": "Vitlab Graduated Cylinder (PP)",
+    "brand": "Vitlab",
+    "catNo": "64704",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "通用实验室耗材",
+    "level3": "量筒与容量瓶",
+    "productName": "Kimble Kimax Volumetric Flask",
+    "brand": "DWK Life Sciences",
+    "catNo": "92812G-100",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "通用实验室耗材",
+    "level3": "移液管与滴管",
+    "productName": "Falcon Disposable Serological Pipettes (10mL)",
+    "brand": "Corning",
+    "catNo": "357551",
+    "citationNote": "移液管金标准，超高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "通用实验室耗材",
+    "level3": "移液管与滴管",
+    "productName": "Falcon Disposable Serological Pipettes (25mL)",
+    "brand": "Corning",
+    "catNo": "357525",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "通用实验室耗材",
+    "level3": "移液管与滴管",
+    "productName": "Nunc Disposable Pipettes (5mL)",
+    "brand": "Thermo Fisher",
+    "catNo": "170353N",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "通用实验室耗材",
+    "level3": "移液管与滴管",
+    "productName": "Eppendorf Serological Pipettes (50mL)",
+    "brand": "Eppendorf",
+    "catNo": "0030 127.502",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "通用实验室耗材",
+    "level3": "移液管与滴管",
+    "productName": "Pasteur Glass Pipettes",
+    "brand": "Corning",
+    "catNo": "63A54",
+    "citationNote": "巴氏滴管高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "通用实验室耗材",
+    "level3": "标签与记号笔",
+    "productName": "Sharpie Permanent Markers (Lab Grade)",
+    "brand": "Sharpie",
+    "catNo": "30001",
+    "citationNote": "实验室记号笔金标准，高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "通用实验室耗材",
+    "level3": "标签与记号笔",
+    "productName": "VWR Lab Marker Pen",
+    "brand": "VWR",
+    "catNo": "52877-020",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "通用实验室耗材",
+    "level3": "标签与记号笔",
+    "productName": "Diamond-Tough Glass Markers",
+    "brand": "Daigger",
+    "catNo": "EF2056A",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "通用实验室耗材",
+    "level3": "标签与记号笔",
+    "productName": "Avery Laser Labels (1x2.625)",
+    "brand": "Avery",
+    "catNo": "5160",
+    "citationNote": "标签高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "通用实验室耗材",
+    "level3": "标签与记号笔",
+    "productName": "Brady Lab Labels",
+    "brand": "Brady",
+    "catNo": "THT-163-499-3",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "通用实验室耗材",
+    "level3": "封口膜与称量耗材",
+    "productName": "Parafilm M Laboratory Film (4in x 125ft)",
+    "brand": "Bemis/Heathrow",
+    "catNo": "PM996",
+    "citationNote": "封口膜金标准，超高引用",
+    "sourceNote": "已查证"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "通用实验室耗材",
+    "level3": "封口膜与称量耗材",
+    "productName": "Aluminum Foil (Heavy Duty)",
+    "brand": "Reynolds",
+    "catNo": "00-023",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "通用实验室耗材",
+    "level3": "封口膜与称量耗材",
+    "productName": "Weighing Boats (Anti-Static)",
+    "brand": "Corning",
+    "catNo": "8394",
+    "citationNote": "称量舟高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "通用实验室耗材",
+    "level3": "封口膜与称量耗材",
+    "productName": "Weighing Paper (Sulfur-Free)",
+    "brand": "VWR",
+    "catNo": "89030-478",
+    "citationNote": "称量纸高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "通用实验室耗材",
+    "level3": "封口膜与称量耗材",
+    "productName": "Spatula (PTFE Coated)",
+    "brand": "Sigma-Aldrich",
+    "catNo": "Z313857",
+    "citationNote": "称量勺高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "细胞培养耗材",
+    "level3": "细胞培养瓶",
+    "productName": "Falcon T75 Cell Culture Flask (Vent Cap)",
+    "brand": "Corning",
+    "catNo": "353136",
+    "citationNote": "培养瓶金标准，超高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "细胞培养耗材",
+    "level3": "细胞培养瓶",
+    "productName": "Falcon T25 Cell Culture Flask (Plug Seal Cap)",
+    "brand": "Corning",
+    "catNo": "353108",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "细胞培养耗材",
+    "level3": "细胞培养瓶",
+    "productName": "Nunc T75 Flask (Filter Cap)",
+    "brand": "Thermo Fisher",
+    "catNo": "156499",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "细胞培养耗材",
+    "level3": "细胞培养瓶",
+    "productName": "Eppendorf T75 Cell Culture Flask",
+    "brand": "Eppendorf",
+    "catNo": "0030 126.027",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "细胞培养耗材",
+    "level3": "细胞培养瓶",
+    "productName": "Corning CellBIND T75 Flask",
+    "brand": "Corning",
+    "catNo": "3290",
+    "citationNote": "表面处理高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "细胞培养耗材",
+    "level3": "细胞培养板",
+    "productName": "Falcon 96-Well Cell Culture Plate (Flat Bottom)",
+    "brand": "Corning",
+    "catNo": "353072",
+    "citationNote": "96孔板金标准，超高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "细胞培养耗材",
+    "level3": "细胞培养板",
+    "productName": "Falcon 6-Well Cell Culture Plate",
+    "brand": "Corning",
+    "catNo": "353046",
+    "citationNote": "6孔板高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "细胞培养耗材",
+    "level3": "细胞培养板",
+    "productName": "Falcon 24-Well Cell Culture Plate",
+    "brand": "Corning",
+    "catNo": "353047",
+    "citationNote": "24孔板高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "细胞培养耗材",
+    "level3": "细胞培养板",
+    "productName": "Nunc 96-Well Plate (Cell Culture Treated)",
+    "brand": "Thermo Fisher",
+    "catNo": "167008",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "细胞培养耗材",
+    "level3": "细胞培养板",
+    "productName": "Eppendorf 96-Well Cell Culture Plate",
+    "brand": "Eppendorf",
+    "catNo": "0030 730.015",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "细胞培养耗材",
+    "level3": "细胞培养皿",
+    "productName": "Falcon 100mm Cell Culture Dish",
+    "brand": "Corning",
+    "catNo": "353003",
+    "citationNote": "培养皿金标准，超高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "细胞培养耗材",
+    "level3": "细胞培养皿",
+    "productName": "Falcon 60mm Cell Culture Dish",
+    "brand": "Corning",
+    "catNo": "353002",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "细胞培养耗材",
+    "level3": "细胞培养皿",
+    "productName": "Nunc 100mm Cell Culture Dish",
+    "brand": "Thermo Fisher",
+    "catNo": "150464",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "细胞培养耗材",
+    "level3": "细胞培养皿",
+    "productName": "Corning 35mm Cell Culture Dish",
+    "brand": "Corning",
+    "catNo": "430165",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "细胞培养耗材",
+    "level3": "细胞培养皿",
+    "productName": "Eppendorf 100mm Cell Culture Dish",
+    "brand": "Eppendorf",
+    "catNo": "0030 700.126",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "细胞培养耗材",
+    "level3": "细胞工厂与生物反应器",
+    "productName": "Corning CellSTACK (10-Chamber)",
+    "brand": "Corning",
+    "catNo": "3269",
+    "citationNote": "细胞工厂金标准，高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "细胞培养耗材",
+    "level3": "细胞工厂与生物反应器",
+    "productName": "Thermo Scientific Nunc Cell Factory (10-Tray)",
+    "brand": "Thermo Fisher",
+    "catNo": "170009",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "细胞培养耗材",
+    "level3": "细胞工厂与生物反应器",
+    "productName": "Corning HYPERFlask Cell Culture Vessel",
+    "brand": "Corning",
+    "catNo": "10030",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "细胞培养耗材",
+    "level3": "细胞工厂与生物反应器",
+    "productName": "Eppendorf BioBLU Single-Use Bioreactor",
+    "brand": "Eppendorf",
+    "catNo": "1386000001",
+    "citationNote": "生物反应器高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "细胞培养耗材",
+    "level3": "细胞工厂与生物反应器",
+    "productName": "Sartorius BIOSTAT B Plus Bioreactor",
+    "brand": "Sartorius",
+    "catNo": "8843101",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "细胞培养耗材",
+    "level3": "3D培养与类器官耗材",
+    "productName": "Corning Matrigel Growth Factor Reduced",
+    "brand": "Corning",
+    "catNo": "354230",
+    "citationNote": "3D培养基质金标准，超高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "细胞培养耗材",
+    "level3": "3D培养与类器官耗材",
+    "productName": "Corning Costar Ultra-Low Attachment 6-Well Plate",
+    "brand": "Corning",
+    "catNo": "3471",
+    "citationNote": "低吸附板高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "细胞培养耗材",
+    "level3": "3D培养与类器官耗材",
+    "productName": "Nunclon Sphera 96-Well U-Bottom Plate",
+    "brand": "Thermo Fisher",
+    "catNo": "174925",
+    "citationNote": "球状体培养高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "细胞培养耗材",
+    "level3": "3D培养与类器官耗材",
+    "productName": "Millicell Hanging Cell Culture Inserts (8μm)",
+    "brand": "Millipore",
+    "catNo": "PIHP01250",
+    "citationNote": "Transwell高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "细胞培养耗材",
+    "level3": "3D培养与类器官耗材",
+    "productName": "Corning Transwell Inserts (0.4μm)",
+    "brand": "Corning",
+    "catNo": "3470",
+    "citationNote": "侵袭实验高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "细胞培养耗材",
+    "level3": "细胞刮刀与细胞处理耗材",
+    "productName": "Corning Cell Lifter (19mm)",
+    "brand": "Corning",
+    "catNo": "3008",
+    "citationNote": "细胞刮刀金标准，高引用",
+    "sourceNote": "已查证"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "细胞培养耗材",
+    "level3": "细胞刮刀与细胞处理耗材",
+    "productName": "Falcon Cell Scraper (25cm)",
+    "brand": "Corning",
+    "catNo": "353085",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "细胞培养耗材",
+    "level3": "细胞刮刀与细胞处理耗材",
+    "productName": "Nunc Cell Scraper",
+    "brand": "Thermo Fisher",
+    "catNo": "179693",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "细胞培养耗材",
+    "level3": "细胞刮刀与细胞处理耗材",
+    "productName": "Eppendorf Cell Scraper",
+    "brand": "Eppendorf",
+    "catNo": "0030 127.010",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "细胞培养耗材",
+    "level3": "细胞刮刀与细胞处理耗材",
+    "productName": "Corning Cell Strainer (40μm)",
+    "brand": "Corning",
+    "catNo": "352340",
+    "citationNote": "细胞筛网高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "分子生物学耗材",
+    "level3": "PCR与qPCR耗材",
+    "productName": "Eppendorf twin.tec 96-Well PCR Plate",
+    "brand": "Eppendorf",
+    "catNo": "0030 128.605",
+    "citationNote": "PCR板金标准，高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "分子生物学耗材",
+    "level3": "PCR与qPCR耗材",
+    "productName": "Axygen 0.2mL PCR Tubes (8-Strip)",
+    "brand": "Corning",
+    "catNo": "PCR-0208-C",
+    "citationNote": "PCR八联管高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "分子生物学耗材",
+    "level3": "PCR与qPCR耗材",
+    "productName": "Bio-Rad Hard-Shell 96-Well PCR Plate",
+    "brand": "Bio-Rad",
+    "catNo": "HSP9601",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "分子生物学耗材",
+    "level3": "PCR与qPCR耗材",
+    "productName": "Thermo Fisher MicroAmp Optical 96-Well Plate",
+    "brand": "Applied Biosystems",
+    "catNo": "4306737",
+    "citationNote": "qPCR板高引用",
+    "sourceNote": "已查证"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "分子生物学耗材",
+    "level3": "PCR与qPCR耗材",
+    "productName": "Eppendorf PCR Tube Strips (0.2mL)",
+    "brand": "Eppendorf",
+    "catNo": "0030 124.359",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "分子生物学耗材",
+    "level3": "核酸电泳耗材",
+    "productName": "Thermo Fisher Owl EasyCast B1 Mini Gel System",
+    "brand": "Thermo Fisher",
+    "catNo": "B1A",
+    "citationNote": "迷你电泳槽高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "分子生物学耗材",
+    "level3": "核酸电泳耗材",
+    "productName": "Bio-Rad Mini-Sub Cell GT Cell",
+    "brand": "Bio-Rad",
+    "catNo": "1704469",
+    "citationNote": "核酸电泳槽金标准，高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "分子生物学耗材",
+    "level3": "核酸电泳耗材",
+    "productName": "Corning Costar Gel Tray (7x7cm)",
+    "brand": "Corning",
+    "catNo": "4110007",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "分子生物学耗材",
+    "level3": "核酸电泳耗材",
+    "productName": "Axygen Gel Documentation Comb",
+    "brand": "Corning",
+    "catNo": "PCR-COMB",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "分子生物学耗材",
+    "level3": "核酸电泳耗材",
+    "productName": "Thermo Fisher SYBR Safe DNA Gel Stain",
+    "brand": "Thermo Fisher",
+    "catNo": "S33102",
+    "citationNote": "凝胶染色高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "分子生物学耗材",
+    "level3": "克隆与转化耗材",
+    "productName": "Thermo Fisher One Shot TOP10 Chemically Competent E. coli",
+    "brand": "Invitrogen",
+    "catNo": "C404003",
+    "citationNote": "感受态细胞金标准，超高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "分子生物学耗材",
+    "level3": "克隆与转化耗材",
+    "productName": "NEB 5-alpha Competent E. coli (High Efficiency)",
+    "brand": "NEB",
+    "catNo": "C2987H",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "分子生物学耗材",
+    "level3": "克隆与转化耗材",
+    "productName": "Promega JM109 Competent Cells",
+    "brand": "Promega",
+    "catNo": "L2001",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "分子生物学耗材",
+    "level3": "克隆与转化耗材",
+    "productName": "Thermo Fisher ElectroMAX DH10B Cells",
+    "brand": "Invitrogen",
+    "catNo": "18290015",
+    "citationNote": "电转感受态高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "分子生物学耗材",
+    "level3": "克隆与转化耗材",
+    "productName": "Corning Electroporation Cuvettes (1mm)",
+    "brand": "Corning",
+    "catNo": "45-0124",
+    "citationNote": "电转杯高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "分子生物学耗材",
+    "level3": "核酸纯化专用耗材",
+    "productName": "QIAGEN QIAquick Spin Columns",
+    "brand": "QIAGEN",
+    "catNo": "28104",
+    "citationNote": "硅胶柱金标准，超高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "分子生物学耗材",
+    "level3": "核酸纯化专用耗材",
+    "productName": "Zymo Research DNA Clean & Concentrator Columns",
+    "brand": "Zymo",
+    "catNo": "D4003",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "分子生物学耗材",
+    "level3": "核酸纯化专用耗材",
+    "productName": "Thermo Fisher PureLink Spin Columns",
+    "brand": "Thermo Fisher",
+    "catNo": "K151001",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "分子生物学耗材",
+    "level3": "核酸纯化专用耗材",
+    "productName": "Corning Costar Spin-X Centrifuge Tube Filters (0.22μm)",
+    "brand": "Corning",
+    "catNo": "8160",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "分子生物学耗材",
+    "level3": "核酸纯化专用耗材",
+    "productName": "Millipore Amicon Ultra Centrifugal Filters (30kDa)",
+    "brand": "Millipore",
+    "catNo": "UFC503096",
+    "citationNote": "超滤管高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "蛋白与生化实验耗材",
+    "level3": "蛋白电泳耗材",
+    "productName": "Bio-Rad Mini-PROTEAN Tetra Cell",
+    "brand": "Bio-Rad",
+    "catNo": "1658001",
+    "citationNote": "蛋白电泳槽金标准，超高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "蛋白与生化实验耗材",
+    "level3": "蛋白电泳耗材",
+    "productName": "Invitrogen XCell SureLock Mini-Cell",
+    "brand": "Thermo Fisher",
+    "catNo": "EI0001",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "蛋白与生化实验耗材",
+    "level3": "蛋白电泳耗材",
+    "productName": "Bio-Rad Mini-PROTEAN TGX Precast Gels (4-20%)",
+    "brand": "Bio-Rad",
+    "catNo": "4561096",
+    "citationNote": "预制胶高引用",
+    "sourceNote": "已查证"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "蛋白与生化实验耗材",
+    "level3": "蛋白电泳耗材",
+    "productName": "Invitrogen NuPAGE Bis-Tris Precast Gels (4-12%)",
+    "brand": "Thermo Fisher",
+    "catNo": "NP0321BOX",
+    "citationNote": "高引用",
+    "sourceNote": "已查证"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "蛋白与生化实验耗材",
+    "level3": "蛋白电泳耗材",
+    "productName": "Bio-Rad Precision Plus Protein Standards",
+    "brand": "Bio-Rad",
+    "catNo": "1610374",
+    "citationNote": "蛋白Marker高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "蛋白与生化实验耗材",
+    "level3": "蛋白纯化耗材",
+    "productName": "Cytiva HisTrap FF Crude Column (1mL)",
+    "brand": "Cytiva",
+    "catNo": "11000458",
+    "citationNote": "His标签纯化金标准，高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "蛋白与生化实验耗材",
+    "level3": "蛋白纯化耗材",
+    "productName": "Cytiva HiTrap Protein G HP Column (1mL)",
+    "brand": "Cytiva",
+    "catNo": "17040401",
+    "citationNote": "抗体纯化高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "蛋白与生化实验耗材",
+    "level3": "蛋白纯化耗材",
+    "productName": "Cytiva HiTrap Q HP Anion Exchange Column",
+    "brand": "Cytiva",
+    "catNo": "17115301",
+    "citationNote": "离子交换高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "蛋白与生化实验耗材",
+    "level3": "蛋白纯化耗材",
+    "productName": "Millipore Amicon Ultra-15 Centrifugal Filter (30kDa)",
+    "brand": "Millipore",
+    "catNo": "UFC903096",
+    "citationNote": "浓缩管高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "蛋白与生化实验耗材",
+    "level3": "蛋白纯化耗材",
+    "productName": "Thermo Fisher Pierce Protein A/G Agarose Resin",
+    "brand": "Thermo Fisher",
+    "catNo": "20421",
+    "citationNote": "IP树脂高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "蛋白与生化实验耗材",
+    "level3": "酶标板与ELISA耗材",
+    "productName": "Corning Costar 96-Well EIA/RIA Plate (High Binding)",
+    "brand": "Corning",
+    "catNo": "3590",
+    "citationNote": "ELISA板金标准，超高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "蛋白与生化实验耗材",
+    "level3": "酶标板与ELISA耗材",
+    "productName": "Thermo Fisher Nunc MaxiSorp 96-Well Plate",
+    "brand": "Thermo Fisher",
+    "catNo": "44-2404-21",
+    "citationNote": "高结合板高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "蛋白与生化实验耗材",
+    "level3": "酶标板与ELISA耗材",
+    "productName": "Greiner Bio-One 96-Well Microplate (Medium Binding)",
+    "brand": "Greiner",
+    "catNo": "655001",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "蛋白与生化实验耗材",
+    "level3": "酶标板与ELISA耗材",
+    "productName": "Corning Costar 96-Well Assay Plate (Black/Clear Bottom)",
+    "brand": "Corning",
+    "catNo": "3603",
+    "citationNote": "荧光板高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "蛋白与生化实验耗材",
+    "level3": "酶标板与ELISA耗材",
+    "productName": "Thermo Fisher Nunc 96-Well PolySorp Plate",
+    "brand": "Thermo Fisher",
+    "catNo": "44-2404-21",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "蛋白与生化实验耗材",
+    "level3": "蛋白样品制备耗材",
+    "productName": "Covaris microTUBE AFA Fiber Screw-Cap",
+    "brand": "Covaris",
+    "catNo": "520045",
+    "citationNote": "超声破碎管高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "蛋白与生化实验耗材",
+    "level3": "蛋白样品制备耗材",
+    "productName": "Qiagen TissueLyser Bead Dispenser",
+    "brand": "QIAGEN",
+    "catNo": "69965",
+    "citationNote": "研磨珠高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "蛋白与生化实验耗材",
+    "level3": "蛋白样品制备耗材",
+    "productName": "Thermo Fisher Pierce BCA Protein Assay Reagent A/B",
+    "brand": "Thermo Fisher",
+    "catNo": "23225",
+    "citationNote": "定量试剂高引用",
+    "sourceNote": "已查证"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "蛋白与生化实验耗材",
+    "level3": "蛋白样品制备耗材",
+    "productName": "Bio-Rad Laemmli Sample Buffer (4X)",
+    "brand": "Bio-Rad",
+    "catNo": "1610747",
+    "citationNote": "上样缓冲液高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "蛋白与生化实验耗材",
+    "level3": "蛋白样品制备耗材",
+    "productName": "Sigma-Aldrich Protease Inhibitor Cocktail Tablets",
+    "brand": "Sigma-Aldrich",
+    "catNo": "11697498001",
+    "citationNote": "抑制剂高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "微生物与病理耗材",
+    "level3": "微生物培养耗材",
+    "productName": "Corning Petri Dish (100x15mm, Sterile)",
+    "brand": "Corning",
+    "catNo": "430167",
+    "citationNote": "培养皿金标准，超高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "微生物与病理耗材",
+    "level3": "微生物培养耗材",
+    "productName": "Thermo Fisher Nunc Petri Dish (94x16mm)",
+    "brand": "Thermo Fisher",
+    "catNo": "150288",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "微生物与病理耗材",
+    "level3": "微生物培养耗材",
+    "productName": "Corning Inoculating Loops (10μL, Sterile)",
+    "brand": "Corning",
+    "catNo": "220295",
+    "citationNote": "接种环高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "微生物与病理耗材",
+    "level3": "微生物培养耗材",
+    "productName": "Thermo Fisher Nunc Inoculating Needles",
+    "brand": "Thermo Fisher",
+    "catNo": "446158",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "微生物与病理耗材",
+    "level3": "微生物培养耗材",
+    "productName": "BD Difco Disposable Petri Dishes",
+    "brand": "BD",
+    "catNo": "29124",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "微生物与病理耗材",
+    "level3": "组织取材与固定耗材",
+    "productName": "Thermo Fisher Shandon Histosette II Tissue Cassettes",
+    "brand": "Thermo Fisher",
+    "catNo": "62400-100",
+    "citationNote": "组织包埋盒金标准，高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "微生物与病理耗材",
+    "level3": "组织取材与固定耗材",
+    "productName": "Sakura Tissue-Tek Uni-Cassettes",
+    "brand": "Sakura",
+    "catNo": "4131",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "微生物与病理耗材",
+    "level3": "组织取材与固定耗材",
+    "productName": "Sigma-Aldrich Formaldehyde Solution (10% Neutral Buffered)",
+    "brand": "Sigma-Aldrich",
+    "catNo": "HT501128",
+    "citationNote": "固定液金标准，超高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "微生物与病理耗材",
+    "level3": "组织取材与固定耗材",
+    "productName": "Thermo Fisher Shandon Grossing Pads",
+    "brand": "Thermo Fisher",
+    "catNo": "62000-100",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "微生物与病理耗材",
+    "level3": "组织取材与固定耗材",
+    "productName": "Sakura Tissue-Tek O.C.T. Compound",
+    "brand": "Sakura",
+    "catNo": "4583",
+    "citationNote": "冰冻包埋剂高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "微生物与病理耗材",
+    "level3": "石蜡切片与染色耗材",
+    "productName": "Leica Surgipath X-tra Adhesive Microscope Slides",
+    "brand": "Leica",
+    "catNo": "3800200",
+    "citationNote": "防脱载玻片金标准，高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "微生物与病理耗材",
+    "level3": "石蜡切片与染色耗材",
+    "productName": "Thermo Fisher Superfrost Plus Microscope Slides",
+    "brand": "Thermo Fisher",
+    "catNo": "12-550-15",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "微生物与病理耗材",
+    "level3": "石蜡切片与染色耗材",
+    "productName": "Sakura Tissue-Tek Prisma Plus Slide Stainer",
+    "brand": "Sakura",
+    "catNo": "7260",
+    "citationNote": "染色机高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "微生物与病理耗材",
+    "level3": "石蜡切片与染色耗材",
+    "productName": "Leica Surgipath Paraplast X-tra Paraffin",
+    "brand": "Leica",
+    "catNo": "39601006",
+    "citationNote": "石蜡高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "微生物与病理耗材",
+    "level3": "石蜡切片与染色耗材",
+    "productName": "Thermo Fisher Shandon Cover Glass",
+    "brand": "Thermo Fisher",
+    "catNo": "121568",
+    "citationNote": "盖玻片高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "微生物与病理耗材",
+    "level3": "冰冻切片耗材",
+    "productName": "Sakura Tissue-Tek O.C.T. Compound (4583)",
+    "brand": "Sakura",
+    "catNo": "4583",
+    "citationNote": "冰冻包埋剂金标准，高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "微生物与病理耗材",
+    "level3": "冰冻切片耗材",
+    "productName": "Leica Surgipath CryoJane Tape-Transfer System",
+    "brand": "Leica",
+    "catNo": "39475205",
+    "citationNote": "冰冻切片高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "微生物与病理耗材",
+    "level3": "冰冻切片耗材",
+    "productName": "Thermo Fisher Shandon Cryomatrix Resin",
+    "brand": "Thermo Fisher",
+    "catNo": "6769006",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "微生物与病理耗材",
+    "level3": "冰冻切片耗材",
+    "productName": "Sakura Tissue-Tek Polar Plus Slides",
+    "brand": "Sakura",
+    "catNo": "6301",
+    "citationNote": "冰冻切片载玻片高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "微生物与病理耗材",
+    "level3": "冰冻切片耗材",
+    "productName": "Leica Surgipath Frozen Section Compound",
+    "brand": "Leica",
+    "catNo": "3801600",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "过滤与色谱耗材",
+    "level3": "针头式过滤器",
+    "productName": "Millipore Millex-HV Syringe Filter (0.45μm, PVDF)",
+    "brand": "Millipore",
+    "catNo": "SLHV033RS",
+    "citationNote": "针头滤器金标准，超高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "过滤与色谱耗材",
+    "level3": "针头式过滤器",
+    "productName": "Millipore Millex-GP Syringe Filter (0.22μm, PES)",
+    "brand": "Millipore",
+    "catNo": "SLGP033RS",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "过滤与色谱耗材",
+    "level3": "针头式过滤器",
+    "productName": "Cytiva Whatman Puradisc 13mm Syringe Filter (0.2μm)",
+    "brand": "Cytiva",
+    "catNo": "6798-1302",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "过滤与色谱耗材",
+    "level3": "针头式过滤器",
+    "productName": "Thermo Fisher Nalgene Syringe Filter (0.2μm, SFCA)",
+    "brand": "Thermo Fisher",
+    "catNo": "190-2520",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "过滤与色谱耗材",
+    "level3": "针头式过滤器",
+    "productName": "Pall Acrodisc Syringe Filter (0.2μm, Supor)",
+    "brand": "Pall",
+    "catNo": "4612",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "过滤与色谱耗材",
+    "level3": "真空过滤装置",
+    "productName": "Corning 500mL Vacuum Filter/Storage Bottle System (0.22μm)",
+    "brand": "Corning",
+    "catNo": "430768",
+    "citationNote": "真空过滤金标准，超高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "过滤与色谱耗材",
+    "level3": "真空过滤装置",
+    "productName": "Thermo Fisher Nalgene Rapid-Flow 500mL Filter Unit (0.2μm)",
+    "brand": "Thermo Fisher",
+    "catNo": "566-0020",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "过滤与色谱耗材",
+    "level3": "真空过滤装置",
+    "productName": "Millipore Stericup 500mL Vacuum Filter (0.22μm, PVDF)",
+    "brand": "Millipore",
+    "catNo": "SCGPU05RE",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "过滤与色谱耗材",
+    "level3": "真空过滤装置",
+    "productName": "Cytiva Whatman 25mm Glass Microfiber Filter (GF/F)",
+    "brand": "Cytiva",
+    "catNo": "1825-025",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "过滤与色谱耗材",
+    "level3": "真空过滤装置",
+    "productName": "Pall 47mm Magnetic Filter Funnel",
+    "brand": "Pall",
+    "catNo": "4242",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "过滤与色谱耗材",
+    "level3": "色谱分析耗材",
+    "productName": "Agilent ZORBAX Eclipse Plus C18 Column (4.6x150mm, 3.5μm)",
+    "brand": "Agilent",
+    "catNo": "959961-902",
+    "citationNote": "HPLC柱金标准，高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "过滤与色谱耗材",
+    "level3": "色谱分析耗材",
+    "productName": "Waters ACQUITY UPLC BEH C18 Column (2.1x100mm, 1.7μm)",
+    "brand": "Waters",
+    "catNo": "186002352",
+    "citationNote": "UPLC柱高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "过滤与色谱耗材",
+    "level3": "色谱分析耗材",
+    "productName": "Thermo Fisher Hypersil GOLD C18 Column",
+    "brand": "Thermo Fisher",
+    "catNo": "25003-154630",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "过滤与色谱耗材",
+    "level3": "色谱分析耗材",
+    "productName": "Phenomenex Luna C18(2) Column",
+    "brand": "Phenomenex",
+    "catNo": "00F-4252-E0",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "过滤与色谱耗材",
+    "level3": "色谱分析耗材",
+    "productName": "Agilent GC Capillary Column (DB-5MS, 30m x 0.25mm)",
+    "brand": "Agilent",
+    "catNo": "122-5532",
+    "citationNote": "GC柱高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "过滤与色谱耗材",
+    "level3": "超滤与透析耗材",
+    "productName": "Millipore Amicon Ultra-15 Centrifugal Filter (30kDa)",
+    "brand": "Millipore",
+    "catNo": "UFC903096",
+    "citationNote": "超滤管金标准，超高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "过滤与色谱耗材",
+    "level3": "超滤与透析耗材",
+    "productName": "Millipore Amicon Ultra-0.5 Centrifugal Filter (10kDa)",
+    "brand": "Millipore",
+    "catNo": "UFC501096",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "过滤与色谱耗材",
+    "level3": "超滤与透析耗材",
+    "productName": "Sartorius Vivaspin 20 Ultrafiltration Spin Column (30kDa)",
+    "brand": "Sartorius",
+    "catNo": "VS2031",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "过滤与色谱耗材",
+    "level3": "超滤与透析耗材",
+    "productName": "Thermo Fisher Slide-A-Lyzer Dialysis Cassette (3.5mL, 10kDa)",
+    "brand": "Thermo Fisher",
+    "catNo": "66330",
+    "citationNote": "透析盒高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "过滤与色谱耗材",
+    "level3": "超滤与透析耗材",
+    "productName": "Spectrum Spectra/Por Dialysis Membrane (MWCO 12-14kDa)",
+    "brand": "Spectrum",
+    "catNo": "132678",
+    "citationNote": "透析袋高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "样本采集与存储耗材",
+    "level3": "血液采集耗材",
+    "productName": "BD Vacutainer EDTA Tube (K2E, 4mL, Lavender)",
+    "brand": "BD",
+    "catNo": "367861",
+    "citationNote": "采血管金标准，超高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "样本采集与存储耗材",
+    "level3": "血液采集耗材",
+    "productName": "BD Vacutainer Serum Tube (SST II Advance, 5mL, Gold)",
+    "brand": "BD",
+    "catNo": "367955",
+    "citationNote": "血清管高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "样本采集与存储耗材",
+    "level3": "血液采集耗材",
+    "productName": "BD Vacutainer Heparin Tube (Lithium Heparin, 4mL, Green)",
+    "brand": "BD",
+    "catNo": "367874",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "样本采集与存储耗材",
+    "level3": "血液采集耗材",
+    "productName": "Greiner Bio-One VACUETTE EDTA Tube",
+    "brand": "Greiner",
+    "catNo": "456084",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "样本采集与存储耗材",
+    "level3": "血液采集耗材",
+    "productName": "Thermo Fisher Nunc Blood Collection Tube",
+    "brand": "Thermo Fisher",
+    "catNo": "367863",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "样本采集与存储耗材",
+    "level3": "生物样本采集耗材",
+    "productName": "Copan ESwab Collection and Transport System",
+    "brand": "Copan",
+    "catNo": "480CE",
+    "citationNote": "样本采集金标准，高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "样本采集与存储耗材",
+    "level3": "生物样本采集耗材",
+    "productName": "BD BBL CultureSwab Plus Amies Gel",
+    "brand": "BD",
+    "catNo": "220145",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "样本采集与存储耗材",
+    "level3": "生物样本采集耗材",
+    "productName": "Thermo Fisher Nunc CryoTube Vials (1.8mL)",
+    "brand": "Thermo Fisher",
+    "catNo": "377267",
+    "citationNote": "冻存管高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "样本采集与存储耗材",
+    "level3": "生物样本采集耗材",
+    "productName": "Corning 2mL Cryogenic Vials (External Thread)",
+    "brand": "Corning",
+    "catNo": "430488",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "样本采集与存储耗材",
+    "level3": "生物样本采集耗材",
+    "productName": "Eppendorf DNA LoBind CryoPure Tubes (2mL)",
+    "brand": "Eppendorf",
+    "catNo": "0030 120.106",
+    "citationNote": "低吸附冻存管高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "样本采集与存储耗材",
+    "level3": "冻存管与冻存盒",
+    "productName": "Thermo Fisher Nunc CryoTube Vials (1.8mL, Internal Thread)",
+    "brand": "Thermo Fisher",
+    "catNo": "377267",
+    "citationNote": "冻存管金标准，超高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "样本采集与存储耗材",
+    "level3": "冻存管与冻存盒",
+    "productName": "Corning 2mL Cryogenic Vials (External Thread, Sterile)",
+    "brand": "Corning",
+    "catNo": "430488",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "样本采集与存储耗材",
+    "level3": "冻存管与冻存盒",
+    "productName": "Eppendorf CryoPure Tubes (2mL)",
+    "brand": "Eppendorf",
+    "catNo": "0030 120.106",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "样本采集与存储耗材",
+    "level3": "冻存管与冻存盒",
+    "productName": "Thermo Fisher Nunc CryoBox 133x133mm (81-Place)",
+    "brand": "Thermo Fisher",
+    "catNo": "374188",
+    "citationNote": "冻存盒高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "样本采集与存储耗材",
+    "level3": "冻存管与冻存盒",
+    "productName": "Corning 2mL Cryogenic Vial Storage Box (100-Place)",
+    "brand": "Corning",
+    "catNo": "430525",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "样本采集与存储耗材",
+    "level3": "低温存储耗材",
+    "productName": "Thermo Fisher Nunc Mr. Frosty Freezing Container",
+    "brand": "Thermo Fisher",
+    "catNo": "5100-0001",
+    "citationNote": "程序降温盒金标准，高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "样本采集与存储耗材",
+    "level3": "低温存储耗材",
+    "productName": "Corning CoolCell LX Cell Freezing Container",
+    "brand": "Corning",
+    "catNo": "432004",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "样本采集与存储耗材",
+    "level3": "低温存储耗材",
+    "productName": "Thermo Fisher Nunc CryoTube Racks",
+    "brand": "Thermo Fisher",
+    "catNo": "374188",
+    "citationNote": "冻存架高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "样本采集与存储耗材",
+    "level3": "低温存储耗材",
+    "productName": "Eppendorf CryoStorage Box",
+    "brand": "Eppendorf",
+    "catNo": "0030 120.015",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "样本采集与存储耗材",
+    "level3": "低温存储耗材",
+    "productName": "Thermo Fisher Nunc IsoBox Freezer Box",
+    "brand": "Thermo Fisher",
+    "catNo": "374217",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "样本采集与存储耗材",
+    "level3": "样本运输耗材",
+    "productName": "Thermo Fisher Nunc CryoShipper Container",
+    "brand": "Thermo Fisher",
+    "catNo": "CX100",
+    "citationNote": "干冰运输金标准，高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "样本采集与存储耗材",
+    "level3": "样本运输耗材",
+    "productName": "Corning CoolCell Shipping Container",
+    "brand": "Corning",
+    "catNo": "432015",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "样本采集与存储耗材",
+    "level3": "样本运输耗材",
+    "productName": "Thermo Fisher Nunc Specimen Transport Bag",
+    "brand": "Thermo Fisher",
+    "catNo": "374217",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "样本采集与存储耗材",
+    "level3": "样本运输耗材",
+    "productName": "Eppendorf ThermoTop Transport Box",
+    "brand": "Eppendorf",
+    "catNo": "0030 120.023",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "样本采集与存储耗材",
+    "level3": "样本运输耗材",
+    "productName": "Thermo Fisher Nunc 96-Well Sample Transport Plate",
+    "brand": "Thermo Fisher",
+    "catNo": "260251",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "仪器配件与维护耗材",
+    "level3": "移液器配件与校准",
+    "productName": "Eppendorf Reference 2 Pipette (10-100μL)",
+    "brand": "Eppendorf",
+    "catNo": "4924000045",
+    "citationNote": "移液器金标准，超高引用",
+    "sourceNote": "已查证"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "仪器配件与维护耗材",
+    "level3": "移液器配件与校准",
+    "productName": "Gilson PIPETMAN Classic P20",
+    "brand": "Gilson",
+    "catNo": "F123601",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "仪器配件与维护耗材",
+    "level3": "移液器配件与校准",
+    "productName": "Thermo Fisher Finnpipette F2 (10-100μL)",
+    "brand": "Thermo Fisher",
+    "catNo": "4642070",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "仪器配件与维护耗材",
+    "level3": "移液器配件与校准",
+    "productName": "Mettler Toledo Rainin LTS Pipette (20-200μL)",
+    "brand": "Mettler",
+    "catNo": "17011794",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "仪器配件与维护耗材",
+    "level3": "移液器配件与校准",
+    "productName": "Eppendorf Pipette Calibration Service Kit",
+    "brand": "Eppendorf",
+    "catNo": "4924000905",
+    "citationNote": "校准工具高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "仪器配件与维护耗材",
+    "level3": "离心机配件与转子",
+    "productName": "Eppendorf FA-45-24-11 Rotor (24x1.5/2mL)",
+    "brand": "Eppendorf",
+    "catNo": "5804 371.010",
+    "citationNote": "离心机转子金标准，高引用",
+    "sourceNote": "已查证"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "仪器配件与维护耗材",
+    "level3": "离心机配件与转子",
+    "productName": "Thermo Fisher Fiberlite F15-8x50cy Rotor",
+    "brand": "Thermo Fisher",
+    "catNo": "096-120-001",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "仪器配件与维护耗材",
+    "level3": "离心机配件与转子",
+    "productName": "Beckman Coulter JA-20 Fixed Angle Rotor",
+    "brand": "Beckman",
+    "catNo": "369691",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "仪器配件与维护耗材",
+    "level3": "离心机配件与转子",
+    "productName": "Eppendorf A-4-44 Swing Bucket Rotor",
+    "brand": "Eppendorf",
+    "catNo": "5804 720.010",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "仪器配件与维护耗材",
+    "level3": "离心机配件与转子",
+    "productName": "Thermo Fisher Centrifuge Tube Adapters",
+    "brand": "Thermo Fisher",
+    "catNo": "096-120-002",
+    "citationNote": "适配器高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "仪器配件与维护耗材",
+    "level3": "PCR仪/测序仪配件",
+    "productName": "Applied Biosystems MicroAmp Optical 96-Well Reaction Plate",
+    "brand": "Thermo Fisher",
+    "catNo": "4306737",
+    "citationNote": "qPCR板金标准，高引用",
+    "sourceNote": "已查证"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "仪器配件与维护耗材",
+    "level3": "PCR仪/测序仪配件",
+    "productName": "Bio-Rad Hard-Shell 96-Well Thin-Wall PCR Plate",
+    "brand": "Bio-Rad",
+    "catNo": "HSP9601",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "仪器配件与维护耗材",
+    "level3": "PCR仪/测序仪配件",
+    "productName": "Illumina MiSeq Reagent Kit v3 (600-cycle)",
+    "brand": "Illumina",
+    "catNo": "MS-102-3003",
+    "citationNote": "测序试剂高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "仪器配件与维护耗材",
+    "level3": "PCR仪/测序仪配件",
+    "productName": "Thermo Fisher Ion 540 Chip Kit",
+    "brand": "Thermo Fisher",
+    "catNo": "A27765",
+    "citationNote": "Ion测序芯片高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "仪器配件与维护耗材",
+    "level3": "PCR仪/测序仪配件",
+    "productName": "Applied Biosystems BigDye Terminator v3.1 Cycle Sequencing Kit",
+    "brand": "Thermo Fisher",
+    "catNo": "4337455",
+    "citationNote": "Sanger测序金标准，高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "仪器配件与维护耗材",
+    "level3": "仪器清洁与维护耗材",
+    "productName": "Thermo Fisher RNaseZap RNase Decontamination Solution",
+    "brand": "Thermo Fisher",
+    "catNo": "AM9780",
+    "citationNote": "RNase清除金标准，高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "仪器配件与维护耗材",
+    "level3": "仪器清洁与维护耗材",
+    "productName": "Thermo Fisher DNAZap DNA Decontamination Solution",
+    "brand": "Thermo Fisher",
+    "catNo": "AM9890",
+    "citationNote": "DNA清除高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "仪器配件与维护耗材",
+    "level3": "仪器清洁与维护耗材",
+    "productName": "Sigma-Aldrich Ethanol (Absolute, Molecular Biology Grade)",
+    "brand": "Sigma-Aldrich",
+    "catNo": "E7023",
+    "citationNote": "清洁用乙醇高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "仪器配件与维护耗材",
+    "level3": "仪器清洁与维护耗材",
+    "productName": "Thermo Fisher Nalgene Spray Bottle (250mL)",
+    "brand": "Thermo Fisher",
+    "catNo": "2401-0250",
+    "citationNote": "喷瓶高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "仪器配件与维护耗材",
+    "level3": "仪器清洁与维护耗材",
+    "productName": "VWR Lab Wipes (Lint-Free)",
+    "brand": "VWR",
+    "catNo": "82003-824",
+    "citationNote": "无尘擦拭布高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "安全防护与动物实验耗材",
+    "level3": "个人防护装备（PPE）",
+    "productName": "Ansell Nitrile Exam Gloves (Powder-Free)",
+    "brand": "Ansell",
+    "catNo": "92-600",
+    "citationNote": "丁腈手套金标准，超高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "安全防护与动物实验耗材",
+    "level3": "个人防护装备（PPE）",
+    "productName": "Kimberly-Clark Kimtech Science Nitrile Gloves",
+    "brand": "Kimberly-Clark",
+    "catNo": "55082",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "安全防护与动物实验耗材",
+    "level3": "个人防护装备（PPE）",
+    "productName": "3M N95 Particulate Respirator (8210)",
+    "brand": "3M",
+    "catNo": "8210",
+    "citationNote": "防护口罩高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "安全防护与动物实验耗材",
+    "level3": "个人防护装备（PPE）",
+    "productName": "Honeywell Safety Goggles (UVEX)",
+    "brand": "Honeywell",
+    "catNo": "S345C",
+    "citationNote": "护目镜高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "安全防护与动物实验耗材",
+    "level3": "个人防护装备（PPE）",
+    "productName": "DuPont Tyvek IsoClean Lab Coat",
+    "brand": "DuPont",
+    "catNo": "IC255SWH",
+    "citationNote": "实验服高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "安全防护与动物实验耗材",
+    "level3": "生物安全耗材",
+    "productName": "Thermo Fisher Nunc Biohazard Waste Bags (Autoclavable)",
+    "brand": "Thermo Fisher",
+    "catNo": "14-222-400",
+    "citationNote": "生物垃圾袋高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "安全防护与动物实验耗材",
+    "level3": "生物安全耗材",
+    "productName": "Bel-Art Biohazard Sharps Container (5.4Qt)",
+    "brand": "Bel-Art",
+    "catNo": "F13160-0000",
+    "citationNote": "锐器盒高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "安全防护与动物实验耗材",
+    "level3": "生物安全耗材",
+    "productName": "Thermo Fisher Nunc 96-Well Deep Well Plate (2mL)",
+    "brand": "Thermo Fisher",
+    "catNo": "260251",
+    "citationNote": "深孔板高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "安全防护与动物实验耗材",
+    "level3": "生物安全耗材",
+    "productName": "Corning Axygen 96-Well Filter Plate (0.45μm PVDF)",
+    "brand": "Corning",
+    "catNo": "MAGVN2250",
+    "citationNote": "过滤板高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "安全防护与动物实验耗材",
+    "level3": "生物安全耗材",
+    "productName": "Thermo Fisher Nunc Biohazard Safety Cabinet Cleaner",
+    "brand": "Thermo Fisher",
+    "catNo": "23-249000",
+    "citationNote": "安全柜清洁剂高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "安全防护与动物实验耗材",
+    "level3": "动物饲养耗材",
+    "productName": "Allentown IVC Mouse Cage (Seal Safe Plus)",
+    "brand": "Allentown",
+    "catNo": "75CR75ETS1",
+    "citationNote": "IVC笼盒金标准，高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "安全防护与动物实验耗材",
+    "level3": "动物饲养耗材",
+    "productName": "Tecniplast GM500 Mouse Cage",
+    "brand": "Tecniplast",
+    "catNo": "1284L",
+    "citationNote": "高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "安全防护与动物实验耗材",
+    "level3": "动物饲养耗材",
+    "productName": "Lab Diet 5053 Mouse Irradiated Diet",
+    "brand": "Lab Diet",
+    "catNo": "5053",
+    "citationNote": "饲料高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "安全防护与动物实验耗材",
+    "level3": "动物饲养耗材",
+    "productName": "Shepherd Specialty Papers Aspen Bedding",
+    "brand": "Shepherd",
+    "catNo": "7090",
+    "citationNote": "垫料高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "安全防护与动物实验耗材",
+    "level3": "动物饲养耗材",
+    "productName": "Allentown Water Bottle with Sipper Tube (500mL)",
+    "brand": "Allentown",
+    "catNo": "WBR0500",
+    "citationNote": "水瓶高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "安全防护与动物实验耗材",
+    "level3": "动物实验操作耗材",
+    "productName": "Kent Scientific SomnoSuite Anesthesia System",
+    "brand": "Kent Scientific",
+    "catNo": "SOMNO-001",
+    "citationNote": "小动物麻醉金标准，高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "安全防护与动物实验耗材",
+    "level3": "动物实验操作耗材",
+    "productName": "Stoelting Digital Rodent Ventilator",
+    "brand": "Stoelting",
+    "catNo": "68730",
+    "citationNote": "呼吸机高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "安全防护与动物实验耗材",
+    "level3": "动物实验操作耗材",
+    "productName": "Harvard Apparatus Rodent Surgical Instruments Kit",
+    "brand": "Harvard",
+    "catNo": "72-5200",
+    "citationNote": "手术器械高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "安全防护与动物实验耗材",
+    "level3": "动物实验操作耗材",
+    "productName": "Braintree Scientific Rodent Restrainer",
+    "brand": "Braintree",
+    "catNo": "REST-001",
+    "citationNote": "固定器高引用",
+    "sourceNote": "行业公认"
+  },
+  {
+    "level1": "实验室耗材",
+    "level2": "安全防护与动物实验耗材",
+    "level3": "动物实验操作耗材",
+    "productName": "Thermo Fisher Nunc 1mL Insulin Syringe (29G x 1/2in)",
+    "brand": "Thermo Fisher",
+    "catNo": "14-826-805",
+    "citationNote": "注射器高引用",
+    "sourceNote": "行业公认"
+  }
+]
