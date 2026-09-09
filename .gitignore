@@ -10,6 +10,9 @@ backups/
 tmp/
 .superpowers/
 网站资料/
+产品/
+Download/
+__pycache__/
 8c7c561f78f5720494b9745daeac053d.jpg
 test-results/
 playwright-report/

@@ -1,0 +1,1 @@
+ALTER TABLE "Product" ADD COLUMN "technicalData" TEXT NOT NULL DEFAULT '{}';

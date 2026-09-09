@@ -12,6 +12,13 @@ export const telegramChannel = {
   qrImage: '/contact/telegram-bobricardo001.png'
 } as const
 
+export const maxChannel = {
+  platform: 'Max',
+  handle: 'luotan8888@qq.com',
+  url: 'mailto:luotan8888@qq.com',
+  qrImage: '/contact/max.png'
+} as const
+
 export type ManagedSocialChannel = {
   platform: string
   url: string
@@ -20,7 +27,7 @@ export type ManagedSocialChannel = {
 }
 
 export type CustomerServiceCard = {
-  platform: 'WhatsApp' | 'VK' | 'Telegram'
+  platform: 'WhatsApp' | 'VK' | 'Telegram' | 'Max'
   url: string
   displayValue: string
   imageUrl: string

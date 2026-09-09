@@ -1,7 +1,7 @@
 import { PrismaClient } from '@prisma/client'
 import { categories } from '../lib/data'
 import bcrypt from 'bcryptjs'
-import { additionalPhone, customerServiceDefaults } from '../lib/contact-channels'
+import { additionalPhone, customerServiceDefaults, maxChannel } from '../lib/contact-channels'
 
 const prisma = new PrismaClient()
 
@@ -87,6 +87,12 @@ async function main() {
     } else {
       await prisma.socialLink.create({ data: { ...channel, enabled: true, sortOrder: index + 1 } })
     }
+  }
+  const existingMax = await prisma.socialLink.findFirst({ where: { platform: maxChannel.platform } })
+  if (existingMax) {
+    await prisma.socialLink.update({ where: { id: existingMax.id }, data: { url: existingMax.url || maxChannel.url, displayValue: existingMax.displayValue || maxChannel.handle, imageUrl: existingMax.imageUrl || maxChannel.qrImage, enabled: true } })
+  } else {
+    await prisma.socialLink.create({ data: { platform: maxChannel.platform, url: maxChannel.url, displayValue: maxChannel.handle, imageUrl: maxChannel.qrImage, enabled: true, sortOrder: customerServiceDefaults.length + 1 } })
   }
   if (await prisma.pageSection.count() === 0) {
     await prisma.pageSection.createMany({ data: [

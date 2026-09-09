@@ -96,6 +96,7 @@ model Product {
   application   String          @default("")
   citationNote  String          @default("")
   sourceNote    String          @default("")
+  technicalData String          @default("{}")
   temperature   String          @default("Ambient")
   imageUrl      String          @default("")
   status        String          @default("PUBLISHED")

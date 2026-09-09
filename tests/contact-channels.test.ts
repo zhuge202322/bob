@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { additionalPhone, telegramChannel } from '@/lib/contact-channels'
+import { additionalPhone, maxChannel, telegramChannel } from '@/lib/contact-channels'
 import { validateContentPayload } from '@/lib/admin/validation'
 
 describe('public contact channels', () => {
@@ -12,6 +12,13 @@ describe('public contact channels', () => {
     expect(telegramChannel.handle).toBe('@BOBRICARDO001')
     expect(telegramChannel.url).toBe('https://t.me/BOBRICARDO001')
     expect(telegramChannel.qrImage).toBe('/contact/telegram-bobricardo001.png')
+  })
+
+  it('defines the Max customer-service channel and QR asset', () => {
+    expect(maxChannel.platform).toBe('Max')
+    expect(maxChannel.handle).toBe('luotan8888@qq.com')
+    expect(maxChannel.url).toBe('mailto:luotan8888@qq.com')
+    expect(maxChannel.qrImage).toBe('/contact/max.png')
   })
 
   it('builds three managed customer-service cards in the requested order', async () => {

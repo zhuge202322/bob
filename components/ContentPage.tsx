@@ -21,7 +21,7 @@ import SiteFooter from '@/components/SiteFooter'
 import SiteHeader from '@/components/SiteHeader'
 import NetworkMap from '@/components/NetworkMap'
 import { applyPageSectionOverrides } from '@/lib/page-section-overrides'
-import { buildCustomerServiceCards } from '@/lib/contact-channels'
+import { buildCustomerServiceCards, maxChannel } from '@/lib/contact-channels'
 
 const serviceIcons = [Search, PackageCheck, ListChecks, Globe2]
 
@@ -39,7 +39,18 @@ export default async function ContentPage({ locale, kind }: { locale: Locale; ki
   const t = (en: string, zh: string, ru: string) => locale === 'zh' ? zh : locale === 'ru' ? ru : en
   const whatsapp = socials.find((item) => item.platform.toLowerCase() === 'whatsapp')?.url || 'https://wa.me/861857548378'
   const vk = socials.find((item) => item.platform.toLowerCase() === 'vk')?.url || 'https://vk.com/'
-  const customerServiceCards = buildCustomerServiceCards(socials)
+  const maxManaged = socials.find((item) => item.platform.toLowerCase() === maxChannel.platform.toLowerCase())
+  const customerServiceCards = [...buildCustomerServiceCards(socials), {
+    platform: maxChannel.platform,
+    url: maxManaged?.url || maxChannel.url,
+    displayValue: maxManaged?.displayValue?.trim() || maxChannel.handle,
+    imageUrl: maxManaged?.imageUrl ?? maxChannel.qrImage
+  }]
+  const capabilitiesPdf: Record<Locale, string> = {
+    en: '/downloads/zehongyan-capabilities-en.pdf',
+    zh: '/downloads/zehongyan-capabilities-zh.pdf',
+    ru: '/downloads/zehongyan-capabilities-ru.pdf'
+  }
   const heroImages: Record<string, string> = {
     solutions: '/stitch/services-1.jpg',
     quality: '/stitch/quality-1.jpg',
@@ -55,7 +66,7 @@ export default async function ContentPage({ locale, kind }: { locale: Locale; ki
   if (kind === 'solutions') {
     content = <>
       <section className="stitch-page-hero stitch-container">
-        <div><span className="stitch-overline">{text(page.eyebrow)}</span><h1>{text(page.title)}</h1><p>{text(page.intro)}</p><div className="stitch-action-row"><Link className="button primary" href={`/${locale}/rfq`}>{t('Start an inquiry', '开始询盘', 'Начать запрос')}<ArrowRight size={16}/></Link><a className="button secondary" href="/manuals/reagents-catalogue.pdf" download>{t('Download capabilities', '下载能力手册', 'Скачать каталог')}<Download size={15}/></a></div></div>
+        <div><span className="stitch-overline">{text(page.eyebrow)}</span><h1>{text(page.title)}</h1><p>{text(page.intro)}</p><div className="stitch-action-row"><Link className="button primary" href={`/${locale}/rfq`}>{t('Start an inquiry', '开始询盘', 'Начать запрос')}<ArrowRight size={16}/></Link><a className="button secondary" href={capabilitiesPdf[locale]} download={`zehongyan-capabilities-${locale}.pdf`}>{t('Download capabilities', '下载能力手册', 'Скачать каталог')}<Download size={15}/></a></div></div>
         <div><Image src={heroImage} alt="" fill priority sizes="(max-width: 900px) 100vw, 48vw"/></div>
       </section>
       {page.stats ? <section className="stitch-stat-rail"><div className="stitch-container">{page.stats.map((stat) => <span key={stat.value}><strong>{stat.value}</strong><small>{text(stat.label)}</small></span>)}</div></section> : null}
