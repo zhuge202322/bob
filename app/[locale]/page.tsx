@@ -6,7 +6,7 @@ import type { Metadata } from 'next'
 import { localeAlternates } from '@/lib/seo'
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
-  const { locale: raw } = await params; const locale = parseLocale(raw); const title = locale === 'zh' ? 'Zehongyan Biotech | 科研试剂与实验室耗材全球供应' : locale === 'ru' ? 'Zehongyan Biotech | Поставка реагентов и лабораторных материалов' : 'Zehongyan Biotech | Global Life Science Sourcing'; const description = locale === 'zh' ? '科研试剂、实验室耗材、指定寻源与温控交付。' : locale === 'ru' ? 'Реагенты, лабораторные материалы, поиск по CAT No. и температурная доставка.' : 'Research reagents, laboratory consumables, specified sourcing and temperature-aware delivery.'; return { title, description, alternates: localeAlternates(process.env.APP_URL || 'http://localhost:3000', locale) }
+  const { locale: raw } = await params; const locale = parseLocale(raw); const title = locale === 'zh' ? 'ZEHOLYN BIOTECH | 科研试剂与实验室耗材全球供应' : locale === 'ru' ? 'ZEHOLYN BIOTECH | Поставка реагентов и лабораторных материалов' : 'ZEHOLYN BIOTECH | Global Life Science Sourcing'; const description = locale === 'zh' ? '科研试剂、实验室耗材、指定寻源与温控交付。' : locale === 'ru' ? 'Реагенты, лабораторные материалы, поиск по CAT No. и температурная доставка.' : 'Research reagents, laboratory consumables, specified sourcing and temperature-aware delivery.'; return { title, description, alternates: localeAlternates(process.env.APP_URL || 'http://localhost:3000', locale) }
 }
 
 export function generateStaticParams() { return locales.map((locale) => ({ locale })) }

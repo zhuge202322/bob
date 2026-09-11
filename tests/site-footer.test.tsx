@@ -24,4 +24,15 @@ describe('SiteFooter', () => {
     expect(markup).not.toContain('stitch-footer-telegram')
     expect(markup).not.toContain('telegram-bobricardo001.png')
   })
+
+  it('renders the multilingual legal navigation and research-use disclosure', () => {
+    const markup = renderToStaticMarkup(<SiteFooter locale="en" siteName="ZEHOLYN BIOTECH" />)
+
+    expect(markup).toContain('href="/en/privacy"')
+    expect(markup).toContain('href="/en/terms"')
+    expect(markup).toContain('href="/en/legal"')
+    expect(markup).toContain('Research Use Only')
+    expect(markup).toContain('independent')
+    expect(markup).toContain('ZEHOLYN BIOTECH')
+  })
 })

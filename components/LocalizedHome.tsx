@@ -65,7 +65,7 @@ const applicationIcons = [Dna, TestTubes, Microscope, FlaskConical]
 
 export default function LocalizedHome({
   locale,
-  siteName = 'Zehongyan Biotech',
+  siteName = 'ZEHOLYN BIOTECH',
   logoUrl = '/manuals/company-logo.jpg',
   dbCategories = [],
   dbSlides = [],
@@ -179,7 +179,7 @@ export default function LocalizedHome({
         <div>
           <span className="stitch-overline">{t('Global distribution network', '全球供应网络', 'Глобальная сеть поставок')}</span>
           <h2>{t('Sourcing across major life-science markets.', '连接全球主要生命科学供应市场。', 'Закупки на ключевых рынках life science.')}</h2>
-          <p>{t('Brand coverage spans the Americas, Europe, Asia-Pacific and China. One sourcing desk coordinates product matching, quotation, documents and the delivery path.', '品牌网络覆盖美洲、欧洲、亚太和中国，由同一采购窗口协调产品匹配、报价、文件与交付路径。', 'Сеть брендов охватывает Америку, Европу, Азиатско-Тихоокеанский регион и Китай. Один отдел координирует подбор, расчёт, документы и поставку.')}</p>
+          <p>{t('Procurement channels span major life-science supply regions in the Americas, Europe, Asia-Pacific and China. One sourcing desk independently coordinates product matching, quotation, documents and delivery.', '采购渠道覆盖美洲、欧洲、亚太和中国等主要生命科学供应区域，由同一采购窗口独立协调产品匹配、报价、文件与交付。', 'Закупочные каналы охватывают основные рынки life science в Америке, Европе, АТР и Китае. Один независимый отдел координирует подбор, расчёт, документы и поставку.')}</p>
           <div className="stitch-network-facts"><span><strong>4</strong>{t('source regions', '主要供应区域', 'региона')}</span><span><strong>16</strong>{t('product categories', '核心产品品类', 'категорий')}</span><span><strong>3</strong>{t('temperature lanes', '运输温区', 'температурных режима')}</span></div>
         </div>
         <NetworkMap className="stitch-network-map" />

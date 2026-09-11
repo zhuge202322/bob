@@ -12,7 +12,7 @@ type SocialItem = { platform: string; url: string }
 
 export default function SiteHeader({
   locale,
-  siteName = 'Zehongyan Biotech',
+  siteName = 'ZEHOLYN BIOTECH',
   logoUrl = '/manuals/company-logo.jpg',
   socials = []
 }: {
@@ -41,6 +41,7 @@ export default function SiteHeader({
         return <Link key={item.href} className={active ? 'active' : ''} href={href} onClick={() => setOpen(false)}>{item.label[locale]}</Link>
       })}
       <div className="stitch-mobile-actions">
+        <div className="stitch-mobile-language"><Globe2 size={15}/>{(['en', 'zh', 'ru'] as Locale[]).map((item) => <a className={item === locale ? 'active' : ''} key={item} href={localizePath(pathname, item)}>{item === 'en' ? 'EN' : item === 'zh' ? '中文' : 'Рус'}</a>)}</div>
         <a href={whatsapp} target="_blank" rel="noreferrer"><MessageCircle size={16}/> WhatsApp</a>
         <a href={vk} target="_blank" rel="noreferrer">VK</a>
         <Link className="button primary" href={`/${locale}/rfq`} onClick={() => setOpen(false)}>{quote}</Link>

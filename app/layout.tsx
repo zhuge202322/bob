@@ -5,7 +5,7 @@ import { prisma } from '@/lib/prisma'
 export async function generateMetadata(): Promise<Metadata> {
   const settings = await prisma.siteSetting.findUnique({ where: { id: 1 } }).catch(() => null)
   return {
-    title: `${settings?.siteName || 'Zehongyan Biotech'} | Global Life Science Sourcing`,
+    title: `${settings?.siteName || 'ZEHOLYN BIOTECH'} | Global Life Science Sourcing`,
     description: 'Research reagents and laboratory consumables with compliant delivery across Russia.',
     ...(settings?.faviconUrl ? { icons: { icon: settings.faviconUrl } } : {})
   }

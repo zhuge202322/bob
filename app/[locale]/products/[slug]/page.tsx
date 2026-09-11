@@ -15,7 +15,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const locale = parseLocale(raw)
   const category = await prisma.productCategory.findFirst({ where: { status: 'PUBLISHED', slug } })
   const title = category ? (locale === 'zh' ? category.nameZh || category.name : locale === 'ru' ? category.nameRu || category.name : category.name) : 'Product category'
-  return { title: `${title} | Zehongyan Biotech` }
+  return { title: `${title} | ZEHOLYN BIOTECH` }
 }
 
 export default async function CategoryPage({ params }: { params: Promise<{ locale: string; slug: string }> }) {

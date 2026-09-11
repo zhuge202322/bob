@@ -12,6 +12,7 @@ import {
   PackageCheck,
   QrCode,
   Search,
+  Send,
   ShieldCheck
 } from 'lucide-react'
 import type { Locale } from '@/lib/i18n'
@@ -21,9 +22,17 @@ import SiteFooter from '@/components/SiteFooter'
 import SiteHeader from '@/components/SiteHeader'
 import NetworkMap from '@/components/NetworkMap'
 import { applyPageSectionOverrides } from '@/lib/page-section-overrides'
-import { buildCustomerServiceCards, maxChannel } from '@/lib/contact-channels'
+import { buildCustomerServiceCards, maxChannel, telegramChannel } from '@/lib/contact-channels'
 
 const serviceIcons = [Search, PackageCheck, ListChecks, Globe2]
+
+function VkIcon() {
+  return <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path fill="currentColor" d="M3.2 5.4h3.5c.2 0 .4.1.5.4.5 1.6 1.4 3 2.5 4.2.3.3.5.4.7.4.2-.1.3-.3.3-.7V6.4c0-.6-.2-.8-.7-.9V5.4h5.5v.1c-.6.1-.8.4-.8 1v3.1c0 .4.2.6.4.7.3 0 .5-.1.8-.4 1.1-1.2 2-2.7 2.5-4.2.1-.2.3-.4.6-.4h3.4c.5 0 .7.3.5.7-.7 1.5-1.7 3-3.1 4.5-.3.3-.3.6 0 .9 1.5 1.4 2.7 3 3.6 4.8.2.5 0 .8-.5.8H18c-.4 0-.6-.1-.8-.4-.7-1.1-1.6-2.1-2.6-3-.2-.2-.4-.2-.5-.1-.2.1-.3.3-.3.6v2c0 .5-.2.8-.7.9h-1.5c-2.3 0-4.5-1.1-6.4-3.4C3.7 11.8 2.6 9.3 2 6.3c-.1-.5.3-.9 1.2-.9Z"/></svg>
+}
+
+function MaxIcon() {
+  return <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path fill="currentColor" d="M4 18V6h3.1l4.9 6.2L16.9 6H20v12h-3.4v-6.7L12 17l-4.6-5.7V18H4Z"/></svg>
+}
 
 export default async function ContentPage({ locale, kind }: { locale: Locale; kind: string }) {
   const defaultPage = getPageContent(kind)
@@ -39,7 +48,9 @@ export default async function ContentPage({ locale, kind }: { locale: Locale; ki
   const t = (en: string, zh: string, ru: string) => locale === 'zh' ? zh : locale === 'ru' ? ru : en
   const whatsapp = socials.find((item) => item.platform.toLowerCase() === 'whatsapp')?.url || 'https://wa.me/861857548378'
   const vk = socials.find((item) => item.platform.toLowerCase() === 'vk')?.url || 'https://vk.com/'
+  const telegram = socials.find((item) => ['telegram', 'tg'].includes(item.platform.toLowerCase()))?.url || telegramChannel.url
   const maxManaged = socials.find((item) => item.platform.toLowerCase() === maxChannel.platform.toLowerCase())
+  const max = maxManaged?.url || maxChannel.url
   const customerServiceCards = [...buildCustomerServiceCards(socials), {
     platform: maxChannel.platform,
     url: maxManaged?.url || maxChannel.url,
@@ -47,9 +58,9 @@ export default async function ContentPage({ locale, kind }: { locale: Locale; ki
     imageUrl: maxManaged?.imageUrl ?? maxChannel.qrImage
   }]
   const capabilitiesPdf: Record<Locale, string> = {
-    en: '/downloads/zehongyan-capabilities-en.pdf',
-    zh: '/downloads/zehongyan-capabilities-zh.pdf',
-    ru: '/downloads/zehongyan-capabilities-ru.pdf'
+    en: '/downloads/zeholyn-capabilities-en.pdf',
+    zh: '/downloads/zeholyn-capabilities-zh.pdf',
+    ru: '/downloads/zeholyn-capabilities-ru.pdf'
   }
   const heroImages: Record<string, string> = {
     solutions: '/stitch/services-1.jpg',
@@ -60,13 +71,15 @@ export default async function ContentPage({ locale, kind }: { locale: Locale; ki
   }
   const heroImage = managedSections.find((section) => section.sectionKey === 'hero' && section.enabled)?.imageUrl || heroImages[kind] || page.heroImage
   const quote = t('Request a quote', '提交询盘', 'Запросить предложение')
+  const office = contacts.find((item) => item.type.toLowerCase() === 'address')
+  const hours = contacts.find((item) => item.type.toLowerCase() === 'hours')
 
   let content: React.ReactNode
 
   if (kind === 'solutions') {
     content = <>
       <section className="stitch-page-hero stitch-container">
-        <div><span className="stitch-overline">{text(page.eyebrow)}</span><h1>{text(page.title)}</h1><p>{text(page.intro)}</p><div className="stitch-action-row"><Link className="button primary" href={`/${locale}/rfq`}>{t('Start an inquiry', '开始询盘', 'Начать запрос')}<ArrowRight size={16}/></Link><a className="button secondary" href={capabilitiesPdf[locale]} download={`zehongyan-capabilities-${locale}.pdf`}>{t('Download capabilities', '下载能力手册', 'Скачать каталог')}<Download size={15}/></a></div></div>
+        <div><span className="stitch-overline">{text(page.eyebrow)}</span><h1>{text(page.title)}</h1><p>{text(page.intro)}</p><div className="stitch-action-row"><Link className="button primary" href={`/${locale}/rfq`}>{t('Start an inquiry', '开始询盘', 'Начать запрос')}<ArrowRight size={16}/></Link><a className="button secondary" href={capabilitiesPdf[locale]} download={`zeholyn-capabilities-${locale}.pdf`}>{t('Download capabilities', '下载能力手册', 'Скачать каталог')}<Download size={15}/></a></div></div>
         <div><Image src={heroImage} alt="" fill priority sizes="(max-width: 900px) 100vw, 48vw"/></div>
       </section>
       {page.stats ? <section className="stitch-stat-rail"><div className="stitch-container">{page.stats.map((stat) => <span key={stat.value}><strong>{stat.value}</strong><small>{text(stat.label)}</small></span>)}</div></section> : null}
@@ -97,11 +110,12 @@ export default async function ContentPage({ locale, kind }: { locale: Locale; ki
       {page.stats ? <section className="stitch-stat-rail"><div className="stitch-container">{page.stats.map((stat) => <span key={stat.value}><strong>{stat.value}</strong><small>{text(stat.label)}</small></span>)}</div></section> : null}
       {page.proof ? <section className="stitch-about-principles stitch-container"><article><span>01</span><h2>{text(page.proof.items[0].title)}</h2><p>{text(page.proof.items[0].body)}</p></article><article><span>02</span><h2>{text(page.proof.items[2].title)}</h2><p>{text(page.proof.items[2].body)}</p></article></section> : null}
       <section className="stitch-about-capability stitch-container"><div><span className="stitch-overline">{t('Company capability', '企业能力', 'Возможности компании')}</span><h2>{t('A supply company built around accountable coordination.', '以明确负责的协调机制构建供应能力。', 'Поставщик, построенный вокруг ответственной координации.')}</h2><p>{text(page.sections[0].body)}</p><ul><li><CheckCircle2/>{t('Research institutes and universities', '科研院所与高校实验室', 'НИИ и университеты')}</li><li><CheckCircle2/>{t('Biopharma and testing laboratories', '生物医药与检测实验室', 'Биофарма и диагностические лаборатории')}</li><li><CheckCircle2/>{t('Industrial R&D and regional distributors', '工业研发与区域经销商', 'Промышленные R&D-команды и дистрибьюторы')}</li></ul></div><div className="stitch-about-images"><div><Image src="/stitch/about-2.jpg" alt="Laboratory automation" fill sizes="(max-width: 900px) 100vw, 28vw"/></div><div><Image src="/stitch/about-3.jpg" alt="Controlled laboratory environment" fill sizes="(max-width: 900px) 100vw, 28vw"/></div></div></section>
+      <section className="stitch-contact-directory stitch-container"><div><span className="stitch-overline">{t('Company information', '企业信息', 'Информация о компании')}</span><h2>{t('A clear operating identity and accountable contact path.', '清晰的运营主体与负责窗口。', 'Понятная структура и ответственный контакт.')}</h2><p>{t('ZEHOLYN BIOTECH is the English brand of 深圳泽鸿衍生生物科技有限公司. Product selection, sourcing coordination, document alignment and cross-border delivery are managed through the Shenzhen office.', 'ZEHOLYN BIOTECH 是深圳泽鸿衍生生物科技有限公司的英文品牌。产品选型、寻源协调、文件匹配和跨境交付均由深圳办公团队统一协调。', 'ZEHOLYN BIOTECH — англоязычный бренд 深圳泽鸿衍生生物科技有限公司. Подбор, закупка, документы и трансграничная доставка координируются офисом в Шэньчжэне.')}</p></div><div><article><span>{t('Legal company', '公司主体', 'Юридическое лицо')}</span><strong>深圳泽鸿衍生生物科技有限公司</strong></article><article><span>{t('English brand', '英文品牌', 'Английский бренд')}</span><strong>ZEHOLYN BIOTECH</strong></article>{office ? <article><span>{office.label}</span><strong>{office.value}</strong></article> : null}{hours ? <article><span>{hours.label}</span><strong>{hours.value}</strong></article> : null}</div></section>
       <section className="stitch-about-network"><div className="stitch-container"><div><span className="stitch-overline">{text(page.sections[1].title)}</span><h2>{text(page.sections[1].title)}</h2><p>{text(page.sections[1].body)}</p></div><NetworkMap className="stitch-about-network-map" /></div></section>
     </>
   } else if (kind === 'contact') {
     content = <>
-      <section className="stitch-contact-hero stitch-container"><div><span className="stitch-overline">{text(page.eyebrow)}</span><h1>{text(page.title)}</h1><p>{text(page.intro)}</p><div className="stitch-action-row"><a className="button primary" href={whatsapp} target="_blank" rel="noreferrer"><MessageCircle size={16}/>WhatsApp</a><a className="button secondary" href={vk} target="_blank" rel="noreferrer">VK</a></div></div><div><Image src={heroImage} alt="" fill priority sizes="(max-width: 900px) 100vw, 45vw"/></div></section>
+      <section className="stitch-contact-hero stitch-container"><div><span className="stitch-overline">{text(page.eyebrow)}</span><h1>{text(page.title)}</h1><p>{text(page.intro)}</p><div className="stitch-contact-social-actions"><a className="button stitch-social-action stitch-social-action--whatsapp" href={whatsapp} target="_blank" rel="noreferrer"><MessageCircle aria-hidden="true" size={20}/>WhatsApp</a><a className="button stitch-social-action stitch-social-action--vk" href={vk} target="_blank" rel="noreferrer"><VkIcon/>VK</a><a className="button stitch-social-action stitch-social-action--telegram" href={telegram} target="_blank" rel="noreferrer"><Send aria-hidden="true" size={20}/>Telegram</a><a className="button stitch-social-action stitch-social-action--max" href={max} target="_blank" rel="noreferrer"><MaxIcon/>MAX</a></div></div><div><Image src={heroImage} alt="" fill priority sizes="(max-width: 900px) 100vw, 45vw"/></div></section>
       <section className="stitch-contact-directory stitch-container"><div><span className="stitch-overline">{t('Business contacts', '商务联系信息', 'Контактные данные')}</span><h2>{t('Choose the channel that fits the request.', '根据需求选择合适的沟通方式。', 'Выберите канал под ваш запрос.')}</h2></div><div>{contacts.map((contact) => <article key={contact.id}><span>{contact.label}</span>{contact.href ? <a href={contact.href}>{contact.value}</a> : <strong>{contact.value}</strong>}</article>)}</div></section>
       <section className="stitch-customer-service-band"><div className="stitch-container"><div className="stitch-customer-service-heading"><span className="stitch-overline">{t('Instant consultation', '即时咨询', 'Быстрая консультация')}</span><h2>{t('Choose your preferred customer-service channel.', '选择您常用的客服联系方式。', 'Выберите удобный канал связи.')}</h2></div><div className="stitch-customer-service-grid">{customerServiceCards.map((card) => <a className="stitch-customer-service-card" href={card.url} target="_blank" rel="noreferrer" key={card.platform} aria-label={`${card.platform} ${card.displayValue}`}><div className="stitch-customer-service-media">{card.imageUrl ? <Image src={card.imageUrl} alt={`${card.platform} QR code`} fill sizes="(max-width: 760px) 100vw, 30vw"/> : <div className="stitch-customer-service-placeholder"><QrCode/><span>{t('QR image pending', '二维码待上传', 'QR-код ожидает загрузки')}</span></div>}</div><div className="stitch-customer-service-meta"><span>{card.platform}</span><strong>{card.displayValue}</strong><ArrowRight size={17}/></div></a>)}</div></div></section>
       <section className="stitch-contact-channels"><div className="stitch-container">{page.sections.map((section, index) => <article key={text(section.title)}><span>0{index + 1}</span>{index === 0 ? <MessageCircle/> : index === 1 ? <Globe2/> : <FileCheck2/>}<h3>{text(section.title)}</h3><p>{text(section.body)}</p><a href={index === 0 ? whatsapp : index === 1 ? vk : `/${locale}/rfq`}>{index < 2 ? t('Start a conversation', '开始沟通', 'Начать диалог') : quote}<ArrowRight size={14}/></a></article>)}</div></section>

@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
-import { ArrowRight, Box, FileCheck2, FileText, FlaskConical, Thermometer, Truck } from 'lucide-react'
+import { ArrowRight, Box, FileCheck2, FileText, FlaskConical, ShieldCheck, Thermometer, Truck } from 'lucide-react'
 import SiteFooter from '@/components/SiteFooter'
 import SiteHeader from '@/components/SiteHeader'
 import { prisma } from '@/lib/prisma'
@@ -34,10 +34,10 @@ export default async function ProductPage({ params }: { params: Promise<{ locale
   const technicalValue = (key: keyof TechnicalData, fallback = '') => technical[key] || fallback
   const categoryName = locale === 'zh' ? product.category.nameZh || product.category.name : locale === 'ru' ? product.category.nameRu || product.category.name : productCategoryLabel(product.category.name, 'en')
   const copy = locale === 'zh'
-    ? { back: '返回所属品类', quote: '询价此产品', specification: '规格说明', application: '用途范围', record: '采购信息', brand: '品牌', category: '所属品类', docs: '可提供文件', docsBody: 'COA、TDS、SDS 与批次资料按具体品牌和型号确认。', type: '类型', features: '特性', shipping: '运输', packaging: '包装', storage: '储存条件' }
+    ? { back: '返回所属品类', quote: '询价此产品', specification: '规格说明', application: '用途范围', record: '采购信息', brand: '品牌', category: '所属品类', docs: '可提供文件', docsBody: 'COA、TDS、SDS 与批次资料按具体品牌和型号确认。', type: '类型', features: '特性', shipping: '运输', packaging: '包装', storage: '储存条件', legalTitle: '产品法律与使用声明', legalBody: `本产品由深圳泽鸿衍生生物科技有限公司（ZEHOLYN BIOTECH）按订单确认的贸易渠道独立采购与供应。${product.brand || '相关'}品牌名称及商标归其权利人所有；除非另有书面说明，ZEHOLYN BIOTECH 与该品牌不存在代理、授权或合作关系。本产品仅供科研使用，不用于人体诊断、治疗或临床用途。页面信息仅作采购参考，具体规格、包装、批次、文件与适用性以品牌说明书、实物及最终合同为准。` }
     : locale === 'ru'
-      ? { back: 'Вернуться в категорию', quote: 'Запросить продукт', specification: 'Спецификация', application: 'Применение', record: 'Данные закупки', brand: 'Бренд', category: 'Категория', docs: 'Документы', docsBody: 'COA, TDS, SDS и данные партии подтверждаются для выбранного бренда и артикула.', type: 'Тип', features: 'Характеристики', shipping: 'Транспортировка', packaging: 'Упаковка', storage: 'Хранение' }
-      : { back: 'Back to category', quote: 'Request this product', specification: 'Specification', application: 'Application', record: 'Procurement record', brand: 'Brand', category: 'Category', docs: 'Available documents', docsBody: 'COA, TDS, SDS and batch information are confirmed for the selected brand and catalog number.', type: 'Type', features: 'Features', shipping: 'Shipping', packaging: 'Packaging', storage: 'Storage conditions' }
+      ? { back: 'Вернуться в категорию', quote: 'Запросить продукт', specification: 'Спецификация', application: 'Применение', record: 'Данные закупки', brand: 'Бренд', category: 'Категория', docs: 'Документы', docsBody: 'COA, TDS, SDS и данные партии подтверждаются для выбранного бренда и артикула.', type: 'Тип', features: 'Характеристики', shipping: 'Транспортировка', packaging: 'Упаковка', storage: 'Хранение', legalTitle: 'Правовое заявление и назначение', legalBody: `Продукт независимо закупается и поставляется 深圳泽鸿衍生生物科技有限公司 (ZEHOLYN BIOTECH) через подтверждённый для заказа торговый канал. Название и товарные знаки ${product.brand || 'соответствующего бренда'} принадлежат их владельцу; ZEHOLYN BIOTECH не заявляет об агентских, авторизованных или партнёрских отношениях без отдельного письменного подтверждения. Только для исследовательского использования, не для диагностики, лечения или клинического применения у человека. Данные страницы являются справочными; приоритет имеют инструкции бренда, фактический товар и окончательный договор.` }
+      : { back: 'Back to category', quote: 'Request this product', specification: 'Specification', application: 'Application', record: 'Procurement record', brand: 'Brand', category: 'Category', docs: 'Available documents', docsBody: 'COA, TDS, SDS and batch information are confirmed for the selected brand and catalog number.', type: 'Type', features: 'Features', shipping: 'Shipping', packaging: 'Packaging', storage: 'Storage conditions', legalTitle: 'Product legal and use statement', legalBody: `This product is independently procured and supplied by 深圳泽鸿衍生生物科技有限公司 (ZEHOLYN BIOTECH) through a trade channel confirmed for the order. The ${product.brand || 'relevant'} brand name and trademarks belong to their owner; ZEHOLYN BIOTECH does not claim agency, authorization or partnership unless separately confirmed in writing. Research Use Only. Not for human diagnosis, treatment or clinical use. Page information is a procurement reference; manufacturer instructions, the delivered item and the final contract govern specifications, packaging, batch documents and suitability.` }
 
   return <main className="stitch-site stitch-detail-page">
     <SiteHeader locale={locale} socials={socials}/>
@@ -56,7 +56,7 @@ export default async function ProductPage({ params }: { params: Promise<{ locale
           <div><dt><FileText size={15}/>{copy.specification}</dt><dd>{technicalValue('specification', product.specification)}</dd></div>
           <div><dt><Truck size={15}/>{copy.shipping}</dt><dd>{technicalValue('shipping')}</dd></div>
           <div><dt><Box size={15}/>{copy.packaging}</dt><dd>{technicalValue('packaging')}</dd></div>
-          <div><dt><Thermometer size={15}/>{copy.storage}</dt><dd>{technicalValue('storage', product.temperature)}</dd></div>
+          <div className="stitch-product-technical-storage"><dt><Thermometer size={15}/>{copy.storage}</dt><dd>{technicalValue('storage', product.temperature)}</dd></div>
         </dl>
       </div>
     </section>
@@ -66,6 +66,9 @@ export default async function ProductPage({ params }: { params: Promise<{ locale
         <article><FileText/><span><small>02</small><h2>{copy.application}</h2><p>{technicalValue('application', product.application)}</p></span></article>
         <article><FileCheck2/><span><small>03</small><h2>{copy.docs}</h2><p>{copy.docsBody}</p></span></article>
       </div>
+    </section>
+    <section className="stitch-product-legal">
+      <div className="stitch-container"><ShieldCheck/><div><h2>{copy.legalTitle}</h2><p>{copy.legalBody}</p><Link href={`/${locale}/legal`}>{locale === 'zh' ? '查看完整法律声明' : locale === 'ru' ? 'Полное правовое заявление' : 'Read the full legal statement'}<ArrowRight size={14}/></Link></div></div>
     </section>
     <SiteFooter locale={locale} contacts={contacts} socials={socials}/>
   </main>

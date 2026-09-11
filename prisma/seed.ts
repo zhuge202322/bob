@@ -36,8 +36,8 @@ const categoryImages: Record<string, string> = {
 }
 
 async function main() {
-  await prisma.siteSetting.upsert({ where: { id: 1 }, update: { siteName: 'Zehongyan Biotech', siteNameZh: 'Zehongyan Biotech', siteNameRu: 'Zehongyan Biotech' }, create: { id: 1, siteName: 'Zehongyan Biotech', siteNameZh: 'Zehongyan Biotech', siteNameRu: 'Zehongyan Biotech' } })
-  const adminEmail = process.env.ADMIN_EMAIL || 'admin@hocore.bio'
+  await prisma.siteSetting.upsert({ where: { id: 1 }, update: { siteName: 'ZEHOLYN BIOTECH', siteNameZh: 'ZEHOLYN BIOTECH', siteNameRu: 'ZEHOLYN BIOTECH' }, create: { id: 1, siteName: 'ZEHOLYN BIOTECH', siteNameZh: 'ZEHOLYN BIOTECH', siteNameRu: 'ZEHOLYN BIOTECH' } })
+  const adminEmail = process.env.ADMIN_EMAIL || 'admin@zeholyn.local'
   const adminPassword = process.env.ADMIN_PASSWORD || 'change-this-before-production'
   await prisma.user.upsert({ where: { email: adminEmail }, update: {}, create: { email: adminEmail, name: 'Site Administrator', role: 'ADMIN', passwordHash: await bcrypt.hash(adminPassword, 12) } })
   if (await prisma.productCategory.count() === 0) {

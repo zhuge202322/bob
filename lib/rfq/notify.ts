@@ -8,7 +8,7 @@ export type RfqNotificationInput = {
 }
 
 export function buildRfqNotification(rfq: RfqNotificationInput) {
-  const subject = `[Hocore RFQ] ${rfq.reference} · ${rfq.company}`
+  const subject = `[ZEHOLYN BIOTECH RFQ] ${rfq.reference} · ${rfq.company}`
   const text = [
     `Reference: ${rfq.reference}`, `Company: ${rfq.company}`, `Contact: ${rfq.contactName}`,
     `Email: ${rfq.email}`, `Location: ${rfq.country}, ${rfq.city}`, `Brand: ${rfq.brand || 'Not specified'}`,

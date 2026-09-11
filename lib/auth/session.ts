@@ -3,7 +3,7 @@ import { cookies } from 'next/headers'
 import { prisma } from '@/lib/prisma'
 import { isSessionExpired, type Role } from './policy'
 
-const cookieName = () => process.env.SESSION_COOKIE_NAME || 'hocore_session'
+const cookieName = () => process.env.SESSION_COOKIE_NAME || 'zeholyn_session'
 const hashToken = (token: string) => createHash('sha256').update(token).digest('hex')
 
 export async function createSession(userId: number) {

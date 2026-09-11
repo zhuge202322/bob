@@ -9,10 +9,10 @@ datasource db {
 
 model SiteSetting {
   id            Int      @id @default(1)
-  siteName      String   @default("Zehongyan Biotech")
-  siteNameZh    String   @default("Zehongyan Biotech")
-  siteNameRu    String   @default("Zehongyan Biotech")
-  logoUrl       String   @default("/hocore-logo.jpg")
+  siteName      String   @default("ZEHOLYN BIOTECH")
+  siteNameZh    String   @default("ZEHOLYN BIOTECH")
+  siteNameRu    String   @default("ZEHOLYN BIOTECH")
+  logoUrl       String   @default("/manuals/company-logo.jpg")
   faviconUrl    String   @default("")
   defaultLocale String   @default("en")
   updatedAt     DateTime @updatedAt
@@ -262,7 +262,7 @@ model Article {
   bodyZh         String   @default("")
   bodyRu         String   @default("")
   coverImageUrl  String   @default("")
-  reviewer       String   @default("Hocore Technical & Supply Team")
+  reviewer       String   @default("ZEHOLYN BIOTECH Technical & Supply Team")
   status         String   @default("PUBLISHED")
   publishedAt    DateTime @default(now())
   updatedAt      DateTime @updatedAt
