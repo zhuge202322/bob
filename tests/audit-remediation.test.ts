@@ -42,4 +42,15 @@ describe('website audit remediation', () => {
     expect(page).not.toContain('Фильтруйте по трёхуровневому каталогу слева')
     expect(page).not.toContain('<p>{copy.intro}</p>')
   })
+
+  it('describes all three supported transport temperatures in the resource guide', () => {
+    const resources = getPageContent('resources')
+    const storageAndShipping = resources.sections[1]
+
+    expect(storageAndShipping.body).toEqual({
+      en: 'A practical checklist covering ambient, -20°C and 2–8°C transport, from shipping documents to receipt inspection.',
+      zh: '覆盖常温、-20℃和2℃～8℃运输的实用清单，从发运文件到收货检查。',
+      ru: 'Практический чек-лист для перевозки при комнатной температуре, -20 °C и 2–8 °C: от отгрузочных документов до проверки при получении.'
+    })
+  })
 })
