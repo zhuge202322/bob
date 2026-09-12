@@ -166,7 +166,7 @@ export default function LocalizedHome({
           <p>{t('Representative categories from the two original product manuals. Send a brand, CAT No. or complete list for item-level confirmation.', '基于两份原始产品手册展示代表品类，可提交品牌、CAT No. 或完整清单进行逐项确认。', 'Категории основаны на двух исходных каталогах. Отправьте бренд, CAT No. или полный список для проверки.')}</p>
         </div>
         <div className="stitch-category-cards">
-          {visibleCategories.map((item) => <Link href={`/${locale}/products/${item.slug}`} className="stitch-category-card" key={item.id}>
+          {visibleCategories.map((item) => <Link href={`/${locale}/products?category=${encodeURIComponent(item.slug)}`} className="stitch-category-card" key={item.id}>
             <div className="stitch-category-image">{item.imageUrl ? <Image src={item.imageUrl} alt="" fill sizes="(max-width: 760px) 100vw, 28vw"/> : <FlaskConical/>}</div>
             <div><span>{item.kind} · {item.temperature}</span><h3>{item.title}</h3><p>{item.detail}</p><b>{t('View supply scope', '查看供应范围', 'Смотреть ассортимент')}<ArrowRight size={14}/></b></div>
           </Link>)}
