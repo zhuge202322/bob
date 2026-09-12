@@ -213,7 +213,7 @@ export default function LocalizedHome({
     <section className="stitch-inventory-band">
       <div className="stitch-container">
         <div className="stitch-section-heading"><div><span className="stitch-overline">{t('Featured inventory', '重点供应品类', 'Основной ассортимент')}</span><h2>{t('Start from a category, finish with an exact item.', '从品类开始，落实到具体产品。', 'Начните с категории и перейдите к точной позиции.')}</h2></div><Link href={`/${locale}/products`}>{t('Full catalogue', '完整目录', 'Полный каталог')}<ArrowRight size={15}/></Link></div>
-        <div className="stitch-inventory-grid">{catalogue.slice(0, 4).map((item) => <Link href={`/${locale}/products/${item.slug}`} key={item.id}><div>{item.imageUrl ? <Image src={item.imageUrl} alt="" fill sizes="(max-width: 700px) 100vw, 25vw"/> : null}</div><span>{item.kind}</span><h3>{item.title}</h3><p>{item.temperature}</p><b>{t('Details', '查看详情', 'Подробнее')}<ArrowRight size={14}/></b></Link>)}</div>
+        <div className="stitch-inventory-grid">{catalogue.slice(0, 4).map((item) => <Link href={`/${locale}/products?category=${encodeURIComponent(item.slug)}`} key={item.id}><div>{item.imageUrl ? <Image src={item.imageUrl} alt="" fill sizes="(max-width: 700px) 100vw, 25vw"/> : null}</div><span>{item.kind}</span><h3>{item.title}</h3><p>{item.temperature}</p><b>{t('Details', '查看详情', 'Подробнее')}<ArrowRight size={14}/></b></Link>)}</div>
       </div>
     </section>
 
